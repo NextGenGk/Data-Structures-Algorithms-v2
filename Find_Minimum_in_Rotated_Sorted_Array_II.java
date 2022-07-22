@@ -1,4 +1,4 @@
-public class Find_Minimum_in_Rotated_Sorted_Array_I {
+public class Find_Minimum_in_Rotated_Sorted_Array_II {
     // Find Minimum In Rotated Sorted Array Function
     public int findMin(int[] nums) {
         // Starting Index
@@ -30,9 +30,8 @@ public class Find_Minimum_in_Rotated_Sorted_Array_I {
 
 // Output -
 /*
-Input: nums = [3,4,5,1,2]
-Output: 1
-Explanation: The original array was [1,2,3,4,5] rotated 3 times.
+Input: nums = [2,2,2,0,1]
+Output: 0
 */
 
 // Algorithm -
