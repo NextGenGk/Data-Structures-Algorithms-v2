@@ -103,7 +103,7 @@ Space - O(1)
 //        }
 //    }
 //
-//    // Driver Code
+//    /* Main Function */
 //    public static void main(String[] args) {
 //        LinkedList list = new LinkedList();
 //        list.head = new Node(85);
@@ -120,4 +120,16 @@ Space - O(1)
 //    }
 //}
 
+// Output -
+/*
+Given linked list
+85 15 4 20
+Reversed Linked list
+20 4 15 85
+ */
 
+// Time & Space Complexity -
+/*
+Time - O(n)
+Space - O(1)
+*/
