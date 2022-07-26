@@ -1,7 +1,7 @@
 public class Middle_of_the_Linked_List {
 
     // Definition for singly-linked list.
-    public class ListNode {
+    private class ListNode {
         int val;
         ListNode next;
 
