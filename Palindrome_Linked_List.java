@@ -25,7 +25,8 @@ public class Palindrome_Linked_List {
             ListNode slow = head;
             ListNode fast = head;
 
-            while (fast != null && fast.next != null) {
+            // Find 1st middle element
+            while (fast.next != null && fast.next.next != null) {
                 slow = slow.next;
                 fast = fast.next.next;
             }
