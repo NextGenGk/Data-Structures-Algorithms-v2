@@ -26,7 +26,7 @@ public class Delete_the_Middle_Node_of_a_Linked_List {
             // If, head next is null means 1 element in the Linked List
             // In both case return head
             if(head == null || head.next == null) {
-                return head;
+                return null;
             }
 
             // Create 3 variable slow, fast & prev
