@@ -13,6 +13,9 @@ public class Remove_Duplicates_from_Sorted_List {
     class Solution {
         // Delete Duplicates Function
         public ListNode deleteDuplicates(ListNode head) {
+            // If, list have no elements
+            if(head == null) return head;
+
             // Create a curr variable
             // & initialize with head
             ListNode curr = head;
