@@ -8,8 +8,8 @@ public class Jump_Game {
             // find max reach
             reach = Math.max(reach, i + nums[i]);
             // if, reach is greater than length - 1
-            // means
-            if(reach >= nums.length-1) {
+            // means, we reached the end, return true
+            if (reach >= nums.length - 1) {
                 return true;
             }
         }
