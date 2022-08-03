@@ -15,8 +15,7 @@ public class Binary_Tree_InOrder_Traversal {
       this.left = left;
       this.right = right;
       }
-      }
-
+    }
 
     class Solution {
         // InOrder Function
@@ -47,6 +46,11 @@ public class Binary_Tree_InOrder_Traversal {
 /*
 Input: root = [1,null,2,3]
 Output: [1,3,2]
+*/
+
+// Algorithm -
+/*
+InOrder -  Left SubTree -> Root -> Right SubTree
 */
 
 // Time & Space Complexity -
