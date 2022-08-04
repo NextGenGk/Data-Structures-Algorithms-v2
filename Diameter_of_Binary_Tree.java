@@ -39,7 +39,6 @@ public class Diameter_of_Binary_Tree {
             return Math.max(lh, rh) + 1;
         }
 
-
         // Diameter of Binary Tree Function
         public int diameterOfBinaryTree(TreeNode root) {
             // Call dfs Function
