@@ -79,7 +79,7 @@ public class Top_View_of_Binary_Tree {
 /*
 Input:
       1
-   /    \
+    /   \
   2      3
 Output: 2 1 3
 */
