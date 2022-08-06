@@ -84,6 +84,9 @@ Input:
 Output: 2 1 3
 */
 
+// Idea -
+// if, map not contains current horizontal value, Add this current horizontal element & add current node data
+
 // Time & Space Complexity -
 /*
 Time - n*log(n)), where n is the number of nodes in the given tree.
