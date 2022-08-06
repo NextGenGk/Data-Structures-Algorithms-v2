@@ -55,6 +55,11 @@ Input: root = [1,2,3,null,5,null,4]
 Output: [1,3,4]
 */
 
+// Algorithm -
+/* Right Side View -> 1. Recursive call for right
+                      2. Recursive call for
+ */
+
 // Time & Space Complexity -
 /*
 Time - O(n)
