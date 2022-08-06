@@ -53,8 +53,8 @@ Output: 1 3
 */
 
 // Algorithm -
-/* Left Side View -> 1. Recursive call for right
-                      2. Recursive call for
+/* Left Side View -> 1. Recursive call for left subtree
+                      2. Recursive call for right subtree
  */
 
 // Time & Space Complexity -
