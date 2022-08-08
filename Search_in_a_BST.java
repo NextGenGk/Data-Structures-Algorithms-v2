@@ -1,6 +1,4 @@
 public class Search_in_a_BST {
-
-
     // Definition for a binary tree node.
       public class TreeNode {
           int val;
