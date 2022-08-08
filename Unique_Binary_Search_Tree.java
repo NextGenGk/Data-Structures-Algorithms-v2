@@ -31,6 +31,10 @@ n = 0, 1, 2, 3, … are 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, …
 // Idea -
 /*
 Formula of Catalan Number- (C)n = (C)i (C)n-i-1
+
+x = dp[0] * dp[2]
+y = dp[1] * dp[1]
+z = dp[2] * dp[1]
 */
 
 // Example -
