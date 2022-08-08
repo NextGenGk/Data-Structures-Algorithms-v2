@@ -33,6 +33,27 @@ n = 0, 1, 2, 3, … are 1, 1, 2, 5, 14, 42, 132, 429, 1430, 4862, …
 Formula of Catalan Number- (C)n = (C)i (C)n-i-1
 */
 
+// Example -
+/*
+For example: N = 5
+
+Initially set cat_=1 then, print cat_  ,
+
+then, iterate from i = 1 to i < 5
+
+for i = 1; cat_ = cat_ * (4*1-2)=1*2=2
+cat_ = cat_ / (i+1)=2/2 = 1
+
+For i = 2; cat_ = cat_ * (4*2-2)=1*6=6
+cat_ = cat_ / (i+1)=6/3=2
+
+For i = 3 :-      cat_ = cat_ * (4*3-2)=2*10=20
+cat_ = cat_ / (i+1)=20/4=5
+
+For i = 4 :-      cat_ = cat_ * (4*4-2)=5*14=70
+ cat_ = cat_ / (i+1)=70/5=14
+ */
+
 // Time & Space Complexity -
 /*
 Time - O(n2)
