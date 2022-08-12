@@ -36,6 +36,8 @@ public class Convert_Sorted_List_to_BST {
             ListNode fast = head;
             ListNode prev = slow;
 
+            // while fast is not equal to null &
+            // fast next is not equal to null then
             while (fast != null && fast.next != null) {
                 // maintain prev variable to store slow value
                 prev = slow;
