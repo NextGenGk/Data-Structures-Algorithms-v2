@@ -79,6 +79,7 @@ public class Morris_Traversal_InOrder {
             // if root is null, then simply return
             if (root == null) return;
 
+            // initialize variable curr, pred
             TreeNode curr = root;
             TreeNode pred;
 
