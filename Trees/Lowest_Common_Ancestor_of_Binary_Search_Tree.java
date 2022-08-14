@@ -1,6 +1,6 @@
 package Trees;
 
-public class Lowest_Common_Ancestor_of_Binary_Tree {
+public class Lowest_Common_Ancestor_of_Binary_Search_Tree {
 
     // Definition for a binary tree node.
     public class TreeNode {
