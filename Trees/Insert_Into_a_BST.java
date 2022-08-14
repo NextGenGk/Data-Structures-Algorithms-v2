@@ -1,3 +1,5 @@
+package Trees;
+
 public class Insert_Into_a_BST {
 
     // Definition for a binary tree node.

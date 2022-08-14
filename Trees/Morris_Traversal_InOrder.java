@@ -1,7 +1,9 @@
+package Trees;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Morris_Traversal_PreOrder {
+public class Morris_Traversal_InOrder {
 
     // TreeNode Class
     public static class TreeNode {
@@ -27,9 +29,9 @@ public class Morris_Traversal_PreOrder {
     static class BinaryTree {
         TreeNode root;
         // InOrder Traversal Function
-        public List<Integer> preorderTraversal(TreeNode root) {
+        public List<Integer> inorderTraversal(TreeNode root) {
             // create a list
-            List<Integer> preorder = new ArrayList<Integer>();
+            List<Integer> inorder = new ArrayList<Integer>();
 
             // initialize curr to root
             TreeNode cur = root;
@@ -37,9 +39,8 @@ public class Morris_Traversal_PreOrder {
             while(cur != null) {
                 // if, current left is null, then
                 // add this current value to the list
-                // & call right side
                 if(cur.left == null) {
-                    preorder.add(cur.val);
+                    inorder.add(cur.val);
                     cur = cur.right;
                 }
 
@@ -51,22 +52,22 @@ public class Morris_Traversal_PreOrder {
                     }
 
                     // Make current as right child of its inorder predecessor
-                    // & print the value of current
                     // create a link
                     if(prev.right == null) {
                         prev.right = cur;
-                        preorder.add(cur.val);
                         cur = cur.left;
                     }
-
-                    // else, remove a link
+                    // Revert the changes made in the 'if' part to restore the original
+                    //  tree i.e., fix the right child of predecessor
+                    // remove a link
                     else {
                         prev.right = null;
+                        inorder.add(cur.val);
                         cur = cur.right;
                     }
                 }
             }
-            return preorder;
+            return inorder;
         }
     }
 
@@ -82,15 +83,11 @@ public class Morris_Traversal_PreOrder {
             TreeNode curr = root;
             TreeNode pred;
 
-            // while, current is not null
             while (curr != null) {
-                // if, current left is equal to null
-                // then, print the data, & call right subtree
                 if (curr.left == null) {
                     System.out.print(curr.val + " ");
                     curr = curr.right;
-                }
-                else {
+                } else {
                     // Find the inorder predecessor of current
                     pred = curr.left;
                     while (pred.right != null
@@ -99,17 +96,16 @@ public class Morris_Traversal_PreOrder {
                     }
 
                     // Make current as right child of its inorder predecessor
-                    // & print the value of
-                    // create a link
                     if (pred.right == null) {
                         pred.right = curr;
-                        System.out.print(curr.val + " ");
                         curr = curr.left;
                     }
 
-                    // else, remove a link
+                    // Revert the changes made in the 'if' part to restore the original
+                    //  tree i.e., fix the right child of predecessor
                     else {
                         pred.right = null;
+                        System.out.print(curr.val + " ");
                         curr = curr.right;
                     }
                      /* End of if condition pre->right == NULL
@@ -136,16 +132,27 @@ public class Morris_Traversal_PreOrder {
 
 // Output -
 /*
-1 2 4 5 3
+4 2 5 1 3
  */
 
 // Algorithm -
 /*
-1...If left child is null, print the current node data. Move to right child.
-….Else, Make the right child of the inorder predecessor point to the current node. Two cases arise:
-………a) The right child of the inorder predecessor already points to the current node. Set right child to NULL. Move to right child of current node.
-………b) The right child is NULL. Set it to current node. Print current node’s data and move to left child of current node.
-2...Iterate until current node is not NULL.
+1. Initialize current as root
+2. While current is not NULL
+   If the current does not have left child
+      a) Print current’s data
+      b) Go to the right, i.e., current = current->right
+   Else
+      a) Find rightmost node in current left subtree OR
+              node whose right child == current.
+         If we found right child == current
+             a) Update the right child as NULL of that node whose right child is current
+             b) Print current’s data
+             c) Go to the right, i.e. current = current->right
+         Else
+             a) Make current as the right child of that rightmost
+                node we found; and
+             b) Go to this left child, i.e., current = current->left
  */
 
 // Time & Space Complexity -
