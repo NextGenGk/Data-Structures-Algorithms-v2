@@ -86,6 +86,31 @@ One valid answer is [5,4,6,2,null,null,7], shown in the above BST.
 Please notice that another valid answer is [5,2,6,null,4,null,7] and it's also accepted.
 */
 
+// Algorithm -
+/*
+1) Node to be deleted is the leaf: Simply remove from the tree.
+              50                            50
+           /     \         delete(20)      /   \
+          30      70       --------->    30     70
+         /  \    /  \                     \    /  \
+       20   40  60   80                   40  60   80
+2) Node to be deleted has only one child: Copy the child to the node and delete the child
+
+              50                            50
+           /     \         delete(30)      /   \
+          30      70       --------->    40     70
+            \    /  \                          /  \
+            40  60   80                       60   80
+3) Node to be deleted has two children: Find inorder successor of the node. Copy contents of the inorder successor to the node and delete the inorder successor. Note that inorder predecessor can also be used.
+
+              50                            60
+           /     \         delete(50)      /   \
+          40      70       --------->    40    70
+                 /  \                            \
+                60   80                           80
+The important thing to note is, inorder successor is needed only when the right child is not empty. In this particular case, inorder successor can be obtained by finding the minimum value in the right child of the node.
+ */
+
 // Time & Space Complexity -
 /*
 Time - O(n)
