@@ -1,5 +1,7 @@
 package Trees;
 
+import java.util.Stack;
+
 public class Sum_of_Left_Leaves {
 
     // Definition for a binary tree node.
@@ -17,6 +19,7 @@ public class Sum_of_Left_Leaves {
       }
 
     class Solution {
+        /* Using Recursion */
         int leftLeafSum = 0;
 
         // Sum of Left Leaf Function
@@ -43,8 +46,6 @@ public class Sum_of_Left_Leaves {
             else return false;
         }
     }
-}
-
 // Output-
 /*
 Input: root = [3,9,20,null,null,15,7]
@@ -59,4 +60,34 @@ Output: 0
 /*
 Time - O(n)
 Space - O(n)
+*/
+
+    /* Using Iteration */
+    public int sumOfLeftLeaves(TreeNode root) {
+        if(root == null) return 0;
+        int ans = 0;
+        Stack<TreeNode> stack = new Stack<TreeNode>();
+        stack.push(root);
+
+        while(!stack.empty()) {
+            TreeNode node = stack.pop();
+            if(node.left != null) {
+                if (node.left.left == null && node.left.right == null)
+                    ans += node.left.val;
+                else
+                    stack.push(node.left);
+            }
+            if(node.right != null) {
+                if (node.right.left != null || node.right.right != null)
+                    stack.push(node.right);
+            }
+        }
+        return ans;
+    }
+}
+
+// Time & Space Complexity -
+/*
+Time - O(n)
+Space - O(1)
 */
