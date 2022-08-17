@@ -19,6 +19,7 @@ public class Construct_Binary_Tree_From_Inorder_and_Postorder {
     class Solution {
         // Build Tree Function
         public TreeNode buildTree(int[] inorder, int[] postorder) {
+            // create a hashMap
             HashMap<Integer, Integer> hm = new HashMap<>();
 
             // put the value of inorder in hashMap
