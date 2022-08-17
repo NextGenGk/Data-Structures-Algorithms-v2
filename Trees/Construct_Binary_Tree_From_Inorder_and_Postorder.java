@@ -1,3 +1,5 @@
+package Trees;
+
 import java.util.HashMap;
 
 public class Construct_Binary_Tree_From_Inorder_and_Postorder {
@@ -37,7 +39,7 @@ public class Construct_Binary_Tree_From_Inorder_and_Postorder {
             // postStart is greater than postEnd, in these case return null
             if (inStart > inEnd || postStart > postEnd) return null;
 
-            // create a node ans assign value of postorder last element value
+            // create a node and assign value of postorder last element value
             TreeNode root = new TreeNode(postorder[postEnd]);
 
             // get value from hashmap of last element of postorder
