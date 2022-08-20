@@ -61,8 +61,11 @@ Input: root = [3,1,4,null,2], k = 1
 Output: 1
 */
 
+// Idea -
+// Simple Inorder left -> root -> right
+
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(n) , because of recursive stack
+Time - O(min(K,N))
+Space - O(min(K,N))
 */
