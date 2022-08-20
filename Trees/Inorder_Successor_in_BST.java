@@ -69,3 +69,13 @@ Hence, successor of 8 is 12.
 Time - O(h)
 Space - O(1)
  */
+
+/*
+if (root.right != null) {
+            Node tmp = root.right;
+            while (tmp.left != null)
+                tmp = tmp.left;
+            suc = tmp;
+        }
+        return;
+ */
