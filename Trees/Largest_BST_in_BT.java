@@ -91,6 +91,7 @@ maximum size BST subtree
 2. recursive call for left & right subtree
 3. check, if valid bst or not, if isValidBst then
     check if largest < node value < smallest
+    return new Node [min(root, left) & max(root, right) & size is max(left, right) + 1]
 4. otherwise,
     size - max(leftSize, rightSize)
     min - very min
