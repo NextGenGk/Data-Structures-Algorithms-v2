@@ -19,7 +19,7 @@ public class Largest_BST_in_BT {
 
     // Create a class NodeValue
     class NodeValue {
-        public int maxNode, minNode, maxSize;
+        public int minNode, maxNode, maxSize;
 
         NodeValue(int minNode, int maxNode, int maxSize) {
             this.maxNode = maxNode;
@@ -59,3 +59,46 @@ public class Largest_BST_in_BT {
         }
     }
 }
+
+// Output -
+/*
+Input:
+      5
+    /  \
+   2    4
+ /  \
+1    3
+
+Output: 3
+The following subtree is the
+maximum size BST subtree
+ */
+
+// Idea -
+/*
+1. Post Order Traversal
+
+2.      node
+        /  \
+  largest  smallest
+
+3. left subtree is smaller than root & right subtree is greater than root
+ */
+
+// Algorithm -
+/*
+1. if, root is null min have the greatest value & max have the smallest value & size is 0
+2. recursive call for left & right subtree
+3. check, if valid bst or not, if isValidBst then
+    check if largest < node value < smallest
+4. otherwise,
+    size - max(leftSize, rightSize)
+    min - very min
+    max - very max
+ */
+
+// Time & Space Complexity -
+/*
+Time - O(n)
+Space - O(1), recursive stack is not count
+ */
