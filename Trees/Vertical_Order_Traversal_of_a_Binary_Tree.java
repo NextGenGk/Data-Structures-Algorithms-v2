@@ -25,7 +25,7 @@ public class Vertical_Order_Traversal_of_a_Binary_Tree {
     }
 
     class Solution {
-        //Function to find the vertical order traversal of Binary Tree.
+        // Function to find the vertical order traversal of Binary Tree.
         static ArrayList<Integer> verticalOrder(Node root) {
             // create a queue
             Queue<Pair> q = new ArrayDeque<>();
