@@ -25,7 +25,7 @@ public class Maximum_BT {
             return findMax(nums, 0, nums.length - 1);
         }
 
-        // Find Max Function
+        // Find Maximum Function
         public TreeNode findMax(int[] nums, int start, int end) {
             // Same as Binary Search
             if (start > end) return null;
