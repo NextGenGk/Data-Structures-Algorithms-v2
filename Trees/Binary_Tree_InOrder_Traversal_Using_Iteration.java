@@ -74,5 +74,5 @@ InOrder - left -> root -> right (Iteration)
 // Time & Space Complexity -
 /*
 Time - O(n), where n is the number of nodes in given tree
-Space - O(n),  where n is the recursive stack in memory
+Space - O(n),  where n is the auxiliary stack in memory
 */
