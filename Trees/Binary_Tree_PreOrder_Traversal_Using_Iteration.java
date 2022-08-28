@@ -28,7 +28,7 @@ public class Binary_Tree_PreOrder_Traversal_Using_Iteration {
             List<Integer> res = new ArrayList<>();
             // base case
             if(root == null) return res;
-            // craete a stack
+            // create a stack
             Stack<TreeNode> stack = new Stack<>();
             // added root to the stack
             stack.push(root);
