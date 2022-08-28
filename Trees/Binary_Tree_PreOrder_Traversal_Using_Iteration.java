@@ -56,7 +56,7 @@ Input: root = [1,null,2,3]
 Output: [1,2,3]
 */
 
-// Algorithm -
+// Logic -
 /*
 PreOrder - Root -> Left SubTree -> Right SubTree (Recursion)
 PreOrder - root -> right -> left (Iteration)
