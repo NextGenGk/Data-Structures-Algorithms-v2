@@ -59,6 +59,6 @@ PreOrder - Root -> Left SubTree -> Right SubTree
 
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(n)
+Time - O(n), where n is the number of nodes in given tree
+Space - O(n), where n is the recursive call stack in memory
 */
