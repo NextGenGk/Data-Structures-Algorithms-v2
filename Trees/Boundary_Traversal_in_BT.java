@@ -94,6 +94,14 @@ public class Boundary_Traversal_in_BT {
 The Boundary Traversal is : 1 2 3 4 5 6 10 11 9 8 7
 */
 
+// Logic -
+/*
+Approach: Boundary traversal in an anti-clockwise direction can be described as a traversal consisting of three parts:
+Part 1: Left Boundary of the tree (excluding the leaf nodes).
+Part 2: All the leaf nodes travelled in the left to right direction.
+Part 3: Right Boundary of the tree (excluding the leaf nodes), traversed in the reverse direction.
+ */
+
 // Time & Space Complexity -
 /*
 Time Complexity: O(N).
