@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class Boundary_Traversal_in_BT {
 
     static class Node {
-        int data;
+        int val;
         Node left, right;
-        Node(int data) {
-            this.data = data;
+        Node(int val) {
+            this.val = val;
             left = null;
             right = null;
         }
@@ -20,21 +20,21 @@ public class Boundary_Traversal_in_BT {
     }
 
     // Add Left Boundary Function
-    static void addLeftBoundary(Node root, ArrayList< Integer > res) {
+    static void addLeftBoundary(Node root, ArrayList<Integer> res) {
         Node cur = root.left;
         while (cur != null) {
-            if (isLeaf(cur) == false) res.add(cur.data);
+            if (isLeaf(cur) == false) res.add(cur.val);
             if (cur.left != null) cur = cur.left;
             else cur = cur.right;
         }
     }
 
     // Add Right Boundary Function
-    static void addRightBoundary(Node root, ArrayList < Integer > res) {
+    static void addRightBoundary(Node root, ArrayList <Integer> res) {
         Node cur = root.right;
-        ArrayList < Integer > tmp = new ArrayList < Integer > ();
+        ArrayList <Integer> tmp = new ArrayList < Integer > ();
         while (cur != null) {
-            if (isLeaf(cur) == false) tmp.add(cur.data);
+            if (isLeaf(cur) == false) tmp.add(cur.val);
             if (cur.right != null) cur = cur.right;
             else cur = cur.left;
         }
@@ -46,9 +46,9 @@ public class Boundary_Traversal_in_BT {
     }
 
     // Add Leaves Node Function
-    static void addLeaves(Node root, ArrayList < Integer > res) {
+    static void addLeaves(Node root, ArrayList <Integer> res) {
         if (isLeaf(root)) {
-            res.add(root.data);
+            res.add(root.val);
             return;
         }
         if (root.left != null) addLeaves(root.left, res);
@@ -57,8 +57,8 @@ public class Boundary_Traversal_in_BT {
 
     // Print Boundary Function
     static ArrayList <Integer> printBoundary(Node node) {
-        ArrayList < Integer > ans = new ArrayList < Integer > ();
-        if (isLeaf(node) == false) ans.add(node.data);
+        ArrayList <Integer> ans = new ArrayList <Integer> ();
+        if (isLeaf(node) == false) ans.add(node.val);
         addLeftBoundary(node, ans);
         addLeaves(node, ans);
         addRightBoundary(node, ans);
@@ -79,7 +79,7 @@ public class Boundary_Traversal_in_BT {
         root.right.right.left.left = new Node(10);
         root.right.right.left.right = new Node(11);
 
-        ArrayList < Integer > boundaryTraversal;
+        ArrayList <Integer> boundaryTraversal;
         boundaryTraversal = printBoundary(root);
 
         System.out.println("The Boundary Traversal is : ");
