@@ -29,9 +29,17 @@ public class Find_Min_and_Max_Value_in_BT {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
+        // Find Min Max Function
         public void findMinMaxValue(TreeNode root) {
+            // base case
             if (root == null) return;
+
+            // if, root value is greater than max value
+            // than max updated to root value
             if (root.val > max) max = root.val;
+
+            // if, root value is less than min value
+            // than min updated to root value
             if (root.val < min) min = root.val;
 
             findMinMaxValue(root.left);
