@@ -17,8 +17,9 @@ public class Distribute_Coins_in_BT {
       }
 
     class Solution {
+        // create global variable moves
+        // to store total numbers of moves required to balance coins in BT
         static int moves;
-
         // Distribute Coins Function
         public int distributeCoins(TreeNode root) {
             moves = 0;
@@ -58,8 +59,8 @@ Explanation: From the root of the tree, we move one coin to its left child, and 
 /*
 We traverse childs first (post-order traversal), and return the ballance of coins. For example, if we get '+3' from
 the left child, that means that the left subtree has 3 extra coins to move out. If we get '-1' from the right child,
- we need to move 1 coin in. So, we increase the number of moves by 4 (3 moves out left + 1 moves in right).
-  We then return the final ballance: r->val (coins in the root) + 3 (left) + (-1) (right) - 1 (keep one coin for the root).
+we need to move 1 coin in. So, we increase the number of moves by 4 (3 moves out left + 1 moves in right).
+We then return the final ballance: r->val (coins in the root) + 3 (left) + (-1) (right) - 1 (keep one coin for the root).
 */
 
 // Approach -
