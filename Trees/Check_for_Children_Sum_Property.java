@@ -16,31 +16,43 @@ public class Check_for_Children_Sum_Property {
 
     // Reorder Function
     static void reorder(Node  root) {
+        // base case
         if (root == null) return;
         int child = 0;
+        // if, left value is exist, than added to the child
         if (root.left !=null) {
-            child += root . left . data;
+            child += root.left.data;
         }
+        // if, right value is exist, than added to the child
         if (root.right !=null) {
-            child += root . right . data;
+            child += root.right.data;
         }
 
-        if (child < root . data) {
-        if (root . left!=null) root . left . data = root . data;
-        else if (root . right!=null) root . right . data = root . data;
+        // if child is greater than root value, then child value is added to the root
+        if (child >= root.data) root.data = child;
+        // else,
+        else {
+            // if, root left is exist
+            if (root.left != null) root.left.data = root.data;
+            else if (root.right != null) root.right.data = root.data;
         }
 
-        reorder(root . left);
-        reorder(root . right);
+        // & than move to the left and right
+        // move come, move come
+        reorder(root.left);
+        reorder(root.right);
 
-        int tot = 0;
-        if (root . left!=null) tot += root . left . data;
-        if (root . right!=null) tot += root . right . data;
-        if (root . left!=null || root . right!=null) root . data = tot;
+        // when we come back, we simply add left and right child value
+        // and assign to the root
+        int total = 0;
+        if (root.left != null) total += root.left.data;
+        if (root.right != null) total += root.right.data;
+        if (root.left != null || root.right!=null) root.data = total;
     }
 
     // Change Tree Function
     static void changeTree(Node root) {
+        // call reorder function
         reorder(root);
     }
 
