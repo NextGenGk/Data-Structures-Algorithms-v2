@@ -2,6 +2,7 @@ package Trees;
 
 public class Check_for_Children_Sum_Property {
 
+    // Definition of Binary Node
     static class Node {
         int data;
         Node  left,  right;
@@ -13,6 +14,7 @@ public class Check_for_Children_Sum_Property {
         }
     }
 
+    // Reorder Function
     static void reorder(Node  root) {
         if (root == null) return;
         int child = 0;
@@ -37,10 +39,12 @@ public class Check_for_Children_Sum_Property {
         if (root . left!=null || root . right!=null) root . data = tot;
     }
 
+    // Change Tree Function
     static void changeTree(Node root) {
         reorder(root);
     }
 
+    // Main Function
     public static void main(String[] args) {
         Node  root = new Node(2);
         root.left = new Node(35);
@@ -53,3 +57,25 @@ public class Check_for_Children_Sum_Property {
     }
 }
 
+// Output -
+/*
+
+ */
+
+// Approach -
+/*
+1. We perform a simple dfs traversal on the tree.
+2. For the base case, if the node is pointing to NULL, we simply return.
+3. At every node, first we find the sum of values of the children( For a NULL child, value is assumed to be 0).
+4. If node’s value > sum of children node value, we assign both the children’s value to their parent’s node value.
+5. Then we visit the children using recursion.
+6. After we return to the node after visiting its children, we explicitly set its value to be equal to the sum of
+ its values of its children.
+ */
+
+// Time & Space Complexity -
+/*
+Time - O(n), where n is the numbers of node in given tree
+Space - O(h), where h is the height of the tree
+in worst case space is O(n)
+ */
