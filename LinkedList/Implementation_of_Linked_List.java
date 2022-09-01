@@ -12,7 +12,7 @@ public class Implementation_of_Linked_List {
         Node tail;
         int size;
 
-        // Create LinkedList Function
+        // Creation Method
         public Node createLinkedList(int nodeValue) {
             head = new Node();
             Node node = new Node();
