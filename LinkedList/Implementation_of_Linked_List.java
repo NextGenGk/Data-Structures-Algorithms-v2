@@ -1,6 +1,7 @@
 package LinkedList;
 
 public class Implementation_of_Linked_List {
+
     // Node Class
     static class Node {
         int value;
