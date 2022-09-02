@@ -7,6 +7,7 @@ public class Implementation_of_Linked_List {
         Node next;
     }
 
+    // Create class SinglyLinkedList
     static class SinglyLinkedList {
         Node head;
         Node tail;
