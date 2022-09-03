@@ -63,7 +63,7 @@ Explanation: Since the list has two middle nodes with values 3 and 4, we return 
 // Algorithm -
 /*
 1. ListNode slow & fast pointer initialize with head
-2. Check, while slow is not null && fast is not null until
+2. Check, while fast is not null && fast next is not null until
    slow pointer will move one step & fast pointer will move 2 steps
 3. Slow pointer is half of the fast pointer, so return slow pointer
 */
