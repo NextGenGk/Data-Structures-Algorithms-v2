@@ -39,7 +39,7 @@ public class Reverse_Linked_List {
                 prev = cur;
                 cur = temp;
             }
-            // Finally return prev element
+            // finally return prev element
             return prev;
         }
     }
