@@ -77,7 +77,7 @@ public class Implementation_of_Linked_List {
             }
         }
 
-        // search
+        // Searching
         public boolean search(int nodeValue) {
             if (head != null) {
                 Node tempNode = head;
@@ -93,7 +93,7 @@ public class Implementation_of_Linked_List {
             return false;
         }
 
-        // delete
+        // Deletion
         public void delete(int location) {
             if (head == null) {
                 System.out.println("Linked List doesn't exist");
@@ -144,11 +144,11 @@ public class Implementation_of_Linked_List {
     public static void main(String[] args) {
         SinglyLinkedList list = new SinglyLinkedList();
         list.insert(10,0);
-//        list.insert(20,1);
-//        list.insert(30,2);
-//        list.insert(40,3);
+        list.insert(20,1);
+        list.insert(30,2);
+        list.insert(40,3);
         list.traverse();
-//        list.search(30);
+        list.search(30);
         list.delete(0);
         list.traverse();
     }
