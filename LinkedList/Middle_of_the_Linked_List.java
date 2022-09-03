@@ -36,7 +36,7 @@ public class Middle_of_the_Linked_List {
             ListNode fast = head;
 
             // Check, while fast is not null
-            // && fast.next is not null until
+            // && fast next is not null until
             // slow pointer will move one step
             // & fast pointer will move 2 steps
             while (fast != null && fast.next != null) {
