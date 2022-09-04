@@ -1,6 +1,7 @@
 package LinkedList;
 
 public class Linked_List_Cycle {
+
     // Definition for singly-linked list.
     private class ListNode {
         int val;
@@ -74,6 +75,6 @@ Explanation: There is a cycle in the linked list, where the tail connects to the
 
 // Time & Space Complexity -
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
 */
