@@ -19,7 +19,7 @@ public class Reverse_Linked_List {
     class Solution {
         // Reverse Linked List Function
         public ListNode reverseList(ListNode head) {
-            // if(head == null || head.next == null) {
+            //  if (head == null || head.next == null) {
             //     return head;
             // }
 
