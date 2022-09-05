@@ -66,11 +66,12 @@ Explanation: There is a cycle in the linked list, where tail connects to the sec
 
 // Logic -
 /*
-if slow and fast pointer is same, than fast is started from head, and check if slow is equal to fast, which means we find the starting index of loop
+If slow and fast pointer is same, than fast is started from head, and check if slow is equal to fast,
+ which means we find the starting index of loop
 */
 
 // Time & Space Complexity -
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
 */
