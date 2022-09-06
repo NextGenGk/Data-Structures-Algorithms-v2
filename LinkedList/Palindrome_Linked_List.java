@@ -86,6 +86,6 @@ Output: true
 
 // Time & Space Complexity -
 /*
-Time- O(N)
+Time - O(N)
 Space - O(1)
 */
