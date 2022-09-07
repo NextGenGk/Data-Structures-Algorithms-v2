@@ -1,6 +1,7 @@
 package LinkedList;
 
 public class Remove_Nth_Node_From_End_of_List {
+
       // Definition for singly-linked list.
       public class ListNode {
           int val;
@@ -46,7 +47,7 @@ public class Remove_Nth_Node_From_End_of_List {
         }
         // prev.next element point to the prev.next.next
         prev.next = prev.next.next;
-        // Finally return head;
+        // finally return head;
         return head;
     }
 }
