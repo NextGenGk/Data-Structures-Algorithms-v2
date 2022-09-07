@@ -1,4 +1,4 @@
-package LinkedList;
+package Trees;
 
 public class Binary_Tree_Pruning {
 
