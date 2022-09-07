@@ -28,6 +28,7 @@ public class Binary_Tree_InOrder_Traversal_Using_Iteration {
 
     // Inorder Traversal (Using Iteration)
     class Solution {
+        // Inorder Traversal Function
         public List<Integer> inorderTraversal(TreeNode root) {
             // create a list which stores result
             List<Integer> res = new ArrayList<>();
