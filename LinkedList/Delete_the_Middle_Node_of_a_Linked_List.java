@@ -76,6 +76,6 @@ We return the new list after removing this node.
 
 // Time & Space Complexity -
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
 */
