@@ -50,6 +50,35 @@ public class Remove_Nth_Node_From_End_of_List {
         // finally return head;
         return head;
     }
+
+    // New Approach
+    public ListNode removeNthFromEnd2(ListNode head, int n) {
+        // create a dummy node
+        ListNode start = new ListNode();
+        // dummy's next start from head
+        start.next = head;
+        // create two variable slow & fast
+        ListNode slow = start;
+        ListNode fast = start;
+
+        // find nth index
+        for(int i=1; i<=n; i++) {
+            fast = fast.next;
+        }
+
+        // while, fast nextis not null than
+        // slow & fast is increment by 1 step
+        while(fast.next != null) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        // slow next element points to slow next next
+        slow.next = slow.next.next;
+
+        // return start next
+        return start.next;
+    }
 }
 
 // Output -
