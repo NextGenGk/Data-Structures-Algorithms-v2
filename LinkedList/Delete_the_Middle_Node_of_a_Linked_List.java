@@ -47,7 +47,7 @@ public class Delete_the_Middle_Node_of_a_Linked_List {
                 slow = slow.next;
                 fast = fast.next.next;
             }
-            // Link between the value of slow.next will move to the prev.next
+            // Link between the value of slow.next will point to the prev.next
             prev.next = slow.next;
             // finally, return head pointer
             return head;
