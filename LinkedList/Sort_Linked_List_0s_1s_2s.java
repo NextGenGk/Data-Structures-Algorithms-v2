@@ -14,9 +14,9 @@ public class Sort_Linked_List_0s_1s_2s {
     }
 
     class Solution {
-        //Function to sort a linked list of 0s, 1s and 2s.
+        // Function to sort a linked list of 0s, 1s and 2s.
         Node segregate(Node head) {
-            // add your code here
+            // base case
             if (head == null || head.next == null) return head;
 
             Node zeroD = new Node(0);
