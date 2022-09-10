@@ -21,7 +21,7 @@ public class Intersection_of_Two_Linked_List {
             ListNode x = headA;
             ListNode y = headB;
 
-            // Looping while true &
+            // Looping till condition is true
             while (true) {
 
                 // check, if x is equal to y
