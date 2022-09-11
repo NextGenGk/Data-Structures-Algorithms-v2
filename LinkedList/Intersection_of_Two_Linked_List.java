@@ -12,7 +12,7 @@ public class Intersection_of_Two_Linked_List {
         }
     }
 
-// Solution Class (Main)
+    // Solution Class (Main)
     public class Solution {
         // Get Intersection Node Function
         public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
