@@ -74,7 +74,8 @@ Explanation: 342 + 465 = 807.
 
 // Time & Space Complexity -
 /*
-Time - O(max(m,n)). Assume that m and n represent the length of l1 and l2 respectively, the algorithm above iterates at most max(m,n) times.
+Time - O(max(m,n)). Assume that m and n represent the length of l1 and l2 respectively,
+ the algorithm above iterates at most max(m,n) times.
 
 Space -  O(max(m,n)). The length of the new list is at most max(m,n)+1.
 */
