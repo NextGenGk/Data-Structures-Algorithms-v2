@@ -46,7 +46,7 @@ public class Copy_List_with_Random_Pointer {
             }
 
             Node original = head;
-            Node copy = head.next;
+            Node copy = (head != null) ? head.next : null;
             // save the start of copied linked list
             Node newTemp = copy;
 
