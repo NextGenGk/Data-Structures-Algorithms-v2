@@ -8,7 +8,7 @@ public class Majority_Element {
         // and increase the count by 1
         int count = 1;
 
-        // Loop through nums.length
+        // Loop through last element of the array
         for (int i=1; i<nums.length; i++) {
             // Create variable num and store the first value of looping element
             int num = nums[i];
