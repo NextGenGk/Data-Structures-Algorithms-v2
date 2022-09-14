@@ -44,7 +44,7 @@ public class Two_Sum {
 Input: nums = [2,7,11,15], target = 9
 Output: [0,1]
 Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
-  */
+ */
 
 // Algorithm -
 /*
@@ -53,10 +53,10 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 3. Store the first element in a variable (number)
 4. Find remainder (target - number)
 5. If hashMap contains element return element
-  */
+ */
 
 // Time & Space Complexity -
 /*
 Time - O(N)
 Space - O(N) because using hashMap
-  */
+ */
