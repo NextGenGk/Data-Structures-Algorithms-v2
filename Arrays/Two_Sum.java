@@ -26,6 +26,7 @@ public class Two_Sum {
                 int index = map.get(remainder);
                 // Find duplicate elements
                 // Don't pick the same element (2,2)
+                // index (0, 0)
                 if(index == i){
                     continue;
                 }
@@ -33,6 +34,7 @@ public class Two_Sum {
                 return new int[] {i, index}; // 0, 0
             }
         }
+        // return empty array
         return new int[]{};
     }
 }
