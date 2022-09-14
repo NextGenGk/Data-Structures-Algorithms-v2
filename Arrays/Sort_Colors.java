@@ -54,6 +54,6 @@ Output: [0,0,1,1,2,2]
 
 // Time & Space Complexity -
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
  */
