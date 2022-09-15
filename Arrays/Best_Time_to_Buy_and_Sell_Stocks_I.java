@@ -19,7 +19,7 @@ public class Best_Time_to_Buy_and_Sell_Stocks_I {
             // Maximum profit
             maxProfit = Math.max(maxProfit, profit);
         }
-        // Finally return maxProfit
+        // Finally, return maxProfit
         return maxProfit;
     }
 }
@@ -39,11 +39,11 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 3. Find minimum price to buy this stock
 4. Find profit from minimum & prices[i]
 5. Find maximum profit
-6. Finally return maxProfit
+6. Finally, return maxProfit
  */
 
 // Time & Space Complexity
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
  */
