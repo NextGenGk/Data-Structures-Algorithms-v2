@@ -45,11 +45,11 @@ Explanation: [4,-1,2,1] has the largest sum = 6.
        then Update maxSum to currentSum
     2. Check, if currentSum value is less than 0, if true
        than update currentSum to 0
-3. Finally return maxSum
+3. Finally, return maxSum
  */
 
 // Time & Space Complexity -
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
  */
