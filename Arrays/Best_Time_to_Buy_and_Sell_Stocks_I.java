@@ -35,7 +35,7 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 // Algorithm -
 /*
 1. Declare variable minSoFar & maxProfit
-2. Looping through prices.length
+2. Looping through array's length
 3. Find minimum price to buy this stock
 4. Find profit from minimum & prices[i]
 5. Find maximum profit
