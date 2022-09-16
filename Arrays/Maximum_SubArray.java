@@ -24,7 +24,7 @@ public class Maximum_SubArray {
                 currentSum = 0;
             }
         }
-        // Finally return maxSum
+        // Finally, return maxSum
         return maxSum;
     }
 }
