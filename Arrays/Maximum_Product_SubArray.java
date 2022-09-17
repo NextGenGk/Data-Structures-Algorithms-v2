@@ -5,7 +5,7 @@ public class Maximum_Product_SubArray {
     public int maxProduct(int[] nums) {
         // Initialize maxProduct to Integer.Min_Value
         int maxProduct = Integer.MIN_VALUE;
-        // Initialize product to 0
+        // Initialize product to 1
         int product = 1;
 
         // Loop through left to right
