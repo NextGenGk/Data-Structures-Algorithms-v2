@@ -54,11 +54,11 @@ Explanation: [2,3] has the largest product 6.
 5. Loop through right to left
 6. Find product And adding on max product (which of the two is bigger (maxProduct or product));
 7. Check if product is 0, then initialize product is 0
-8. Finally return maxProduct
+8. Finally, return maxProduct
  */
 
 // Time & Space Complexity -
 /*
-Time - 0(n)
+Time - 0(N)
 Space - O(1)
  */
