@@ -3,7 +3,7 @@ package Arrays.Easy;
 public class Palindrome_Number {
 
     class Solution {
-        public String is_palindrome(int n) {
+        public String isPalindrome(int n) {
             int num = n;
             int reverse = 0;
 
