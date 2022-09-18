@@ -8,7 +8,7 @@ public class Reverse_Integer {
             while(x != 0){
                 long remainder = x % 10;
                 reverse = reverse * 10 + remainder;
-                x= x/10;
+                x = x / 10;
                 if (reverse > Integer.MAX_VALUE || reverse < Integer.MIN_VALUE)
                     return 0;
             }
