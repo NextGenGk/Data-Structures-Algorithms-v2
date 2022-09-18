@@ -36,6 +36,6 @@ Output: 321
 
 // Time & Space Complexity -
 /*
-Time - O(log(x)
+Time - O(N), where N is the length of the given number
 Space - O(1)
  */
