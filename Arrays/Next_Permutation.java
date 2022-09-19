@@ -1,7 +1,5 @@
 package Arrays;
 
-import java.util.Arrays;
-
 public class Next_Permutation {
 
     class Solution {
