@@ -9,13 +9,13 @@ public class Longest_Consecutive_Sequence {
         public int longestConsecutive(int[] nums) {
             // First, we put all the elements in a HashMap.
             HashMap<Integer, Boolean> hm = new HashMap<>();
-            for(int i=0; i<nums.length; i++) {
+            for (int i=0; i<nums.length; i++) {
                 hm.put(nums[i], true);
             }
 
             // Then, we check if the HashMap contains any elements – 1. If it does, then we convert the
             // value to false
-            for(int i=0; i<nums.length; i++) {
+            for (int i=0; i<nums.length; i++) {
                 if(hm.containsKey(nums[i] - 1)) {
                     hm.put(nums[i], false);
                 }
@@ -24,7 +24,7 @@ public class Longest_Consecutive_Sequence {
             // Finally, we return the maximum length.
             int max = 0;
             for(Integer key : hm.keySet()) {
-                if(hm.get(key) == true) {
+                if (hm.get(key) == true) {
                     max = Math.max(max, findLength(hm, key));
                 }
             }
