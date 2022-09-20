@@ -13,7 +13,8 @@ public class Longest_Consecutive_Sequence {
                 hm.put(nums[i], true);
             }
 
-            // Then, we check if the HashMap contains any elements – 1. If it does, then we convert the             // value to false
+            // Then, we check if the HashMap contains any elements – 1. If it does, then we convert the
+            // value to false
             for(int i=0; i<nums.length; i++) {
                 if(hm.containsKey(nums[i] - 1)) {
                     hm.put(nums[i], false);
