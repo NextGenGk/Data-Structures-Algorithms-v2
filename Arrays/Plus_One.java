@@ -27,7 +27,7 @@ public class Plus_One {
             arr[0] = 1;
             return arr;
         }
-        // finally return digits
+        // finally, return digits
         return digits;
     }
 }
