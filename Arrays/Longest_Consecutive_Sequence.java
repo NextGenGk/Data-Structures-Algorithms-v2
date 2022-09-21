@@ -9,21 +9,21 @@ public class Longest_Consecutive_Sequence {
         public int longestConsecutive(int[] nums) {
             // First, we put all the elements in a HashMap.
             HashMap<Integer, Boolean> hm = new HashMap<>();
-            for (int i=0; i<nums.length; i++) {
+            for (int i = 0; i < nums.length; i++) {
                 hm.put(nums[i], true);
             }
 
             // Then, we check if the HashMap contains any elements – 1. If it does, then we convert the
             // value to false
-            for (int i=0; i<nums.length; i++) {
-                if(hm.containsKey(nums[i] - 1)) {
+            for (int i = 0; i < nums.length; i++) {
+                if (hm.containsKey(nums[i] - 1)) {
                     hm.put(nums[i], false);
                 }
             }
 
             // Finally, we return the maximum length.
             int max = 0;
-            for(Integer key : hm.keySet()) {
+            for (Integer key : hm.keySet()) {
                 if (hm.get(key) == true) {
                     max = Math.max(max, findLength(hm, key));
                 }
@@ -34,13 +34,14 @@ public class Longest_Consecutive_Sequence {
         // Find Maximum Length Function
         private int findLength(HashMap<Integer, Boolean> hm, int k) {
             int ans = 0;
-            while(hm.containsKey(k)) {
+            while (hm.containsKey(k)) {
                 ans++;
                 k++;
             }
             return ans;
         }
     }
+}
 
 // Output -
 /*
@@ -62,4 +63,3 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 Time - O(N), because, we iterate the array by once
 Space - O(N), because using HashMap
 */
-}
