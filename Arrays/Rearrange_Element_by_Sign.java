@@ -1,18 +1,18 @@
 package Arrays;
 
 public class Rearrange_Element_by_Sign {
+
     class Solution {
         public int[] rearrangeArray(int[] nums) {
             int[] res = new int[nums.length];
             int positive = 0;
             int negative = 1;
 
-            for(int i=0; i<nums.length; i++) {
-                if(nums[i] > 0) {
+            for (int i = 0; i < nums.length; i++) {
+                if (nums[i] > 0) {
                     res[positive] = nums[i];
                     positive = positive + 2;
-                }
-                else {
+                } else {
                     res[negative] = nums[i];
                     negative = negative + 2;
                 }
@@ -20,6 +20,7 @@ public class Rearrange_Element_by_Sign {
             return res;
         }
     }
+}
 
 // Output -
 /*
@@ -44,4 +45,3 @@ Other ways such as [1,-2,2,-5,3,-4], [3,1,2,-2,-5,-4], [-2,3,-5,1,-4,2] are inco
 Time - O(N)
 Space - O(N), where N is the size of given array
 */
-}
