@@ -42,6 +42,6 @@ Other ways such as [1,-2,2,-5,3,-4], [3,1,2,-2,-5,-4], [-2,3,-5,1,-4,2] are inco
 
 // Time & Space Complexity -
 /*
-Time - O(N)
+Time - O(N), where N is traversing an array by once
 Space - O(N), where N is the size of given array
 */
