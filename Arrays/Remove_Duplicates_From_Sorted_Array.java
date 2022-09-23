@@ -1,6 +1,7 @@
 package Arrays;
 
 public class Remove_Duplicates_From_Sorted_Array {
+
     // Remove Duplicates Function
     public int removeDuplicates(int[] nums) {
 
