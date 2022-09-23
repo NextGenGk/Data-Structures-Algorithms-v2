@@ -27,7 +27,7 @@ public class Remove_Duplicates_From_Sorted_Array {
         nums[j] = nums[nums.length-1];
         j++;
 
-        // Finally return j
+        // Finally, return j
         return j;
     }
 }
