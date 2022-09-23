@@ -13,6 +13,7 @@ public class Remove_Duplicates_From_Sorted_Array {
         // Create variable j and assign value to 0
         // (Store the single value of all the elements)
         int j = 0;
+
         // Start traversing elements
         for (int i=0; i<nums.length-1; i++) {
             // Check, If current element is not equal to next
