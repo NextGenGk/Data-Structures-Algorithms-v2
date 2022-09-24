@@ -32,6 +32,6 @@ Explanation: n = 3 since there are 3 numbers, so all numbers are in the range [0
 
 // Time & Space Complexity -
 /*
-Time - O(N)
+Time - O(N), where N is we traverse the array by once
 Space - O(1)
 */
