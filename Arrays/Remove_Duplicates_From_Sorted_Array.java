@@ -23,6 +23,7 @@ public class Remove_Duplicates_From_Sorted_Array {
                 j++;
             }
         }
+        
         // Store the last element as whether it is unique or
         // repeated, it hasn't stored previously
         nums[j] = nums[nums.length-1];
