@@ -9,7 +9,6 @@ public class Rotate_Array_by_One_Positions {
             nums[i] = nums[i + 1];
         }
         nums[n - 1] = temp; // assigned the value of variable at the last index
-        // copy the
         for (int i = 0; i < n; i++) {
             System.out.print(nums[i] + " ");
         }
