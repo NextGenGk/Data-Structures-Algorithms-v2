@@ -41,6 +41,6 @@ rotate 3 steps to the right: [5,6,7,1,2,3,4]
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), where N is we linear traversing an array
+Space - O(1), No extra space is needed
 */
