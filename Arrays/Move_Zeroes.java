@@ -12,8 +12,9 @@ public class Move_Zeroes {
             int right = 0;
 
             while (right < n) {
-                if (nums[right] == 0) right++;
-                else {
+                if (nums[right] == 0) {
+                    right++;
+                } else {
                     int temp = nums[left];
                     nums[left] = nums[right];
                     nums[right] = temp;
