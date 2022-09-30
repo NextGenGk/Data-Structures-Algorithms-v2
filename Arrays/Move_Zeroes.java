@@ -43,6 +43,6 @@ Output: [1,3,12,0,0]
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), we linearly traversing an array
+Space - O(1), no extra space is needed
 */
