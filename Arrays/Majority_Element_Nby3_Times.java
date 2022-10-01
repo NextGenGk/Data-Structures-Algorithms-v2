@@ -45,7 +45,6 @@ public class Majority_Element_Nby3_Times {
             if (count1 > len / 3) {
                 ans.add(number1);
             }
-
             if (count2 > len / 3) {
                 ans.add(number2);
             }
