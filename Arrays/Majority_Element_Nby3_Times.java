@@ -32,7 +32,7 @@ public class Majority_Element_Nby3_Times {
                 }
             }
 
-            List<Integer> ans = new ArrayList();
+            List<Integer> ans = new ArrayList<>();
             count1 = 0;
             count2 = 0;
             for (int i = 0; i < len; i++) {
@@ -66,8 +66,10 @@ Output: [3]
 2. We traverse the array and check if the current element is equal to either of the two numbers.
 3. If it is equal, we increment the count of that number.
 4. If it is not equal, we decrement the count of both the numbers.
-5. If the count of either of the two numbers becomes zero, we set the corresponding number to the current element and set the count to 1.
-6. Finally, we traverse the array again and check if the count of either of the two numbers is greater than n/3. If so, we add that number to the answer list.
+5. If the count of either of the two numbers becomes zero, we set the corresponding number to the current element
+ and set the count to 1.
+6. Finally, we traverse the array again and check if the count of either of the two numbers is greater than n/3.
+ If so, we add that number to the answer list.
 */
 
 // Time & Space Complexity -
