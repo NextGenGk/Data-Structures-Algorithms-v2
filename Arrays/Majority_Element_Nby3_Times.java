@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Majority_Element_Nby3_Times {
+
     class Solution {
         public List<Integer> majorityElement(int[] nums) {
             int number1 = -1;
