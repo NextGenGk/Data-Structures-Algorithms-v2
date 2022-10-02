@@ -74,6 +74,6 @@ Output: [3]
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), because linearly traversing
+Space - O(1), no extra space is needed
 */
