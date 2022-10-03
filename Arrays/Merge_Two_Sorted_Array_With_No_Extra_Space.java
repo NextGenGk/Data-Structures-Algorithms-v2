@@ -53,6 +53,7 @@ public class Merge_Two_Sorted_Array_With_No_Extra_Space {
             }
         }
     }
+}
 
 // Output -
 /*
@@ -128,4 +129,3 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
 Time Complexity:O((N + M)log(N+M)), where N and M are the size of array A[] and B[]
 Space Complexity:O(N), built-in sort takes space
  */
-}
