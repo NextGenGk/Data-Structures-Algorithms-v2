@@ -65,13 +65,13 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 
 // Algorithm -
 /*
-1. Initialize i, j & k
-2. Check, If nums1[i] is greater than nums2[j], nums1[i] value is stored in nums1[k]
-   & both i & k are decrement by 1
-3. Else nums2[j] value is stored in nums1[k] & both j & k are decrement by 1
-4. While nums1[i] elements are remaining, nums1[i] value is stored in nums1[k] & both i & k    are decrement by 1
-5. While nums2[j] elements are remaining, nums2[j] value is stored in nums1[k]
-   & both j & k are decrement by 1
+1. We initialize two pointers i and j to m-1 and n-1 respectively.
+2. We initialize a third pointer k to m + n - 1.
+3. We iterate through the two arrays from the back.
+4. If nums1[i] is greater than nums2[j], we copy nums1[i] to nums1[k] and decrement i.
+5. Otherwise, we copy nums2[j] to nums1[k] and decrement j.
+6. We decrement k after each iteration.
+7. Finally, we copy the remaining elements of nums2 into nums1.
 */
 
 // Time & Space Complexity -
@@ -100,12 +100,14 @@ void mergeArrays(int arr1[], int arr2[], int n1,
 
 // Algorithm -
 /*
-1. Create an auxiliary array of size N + M.
-2. Put two pointers i and j and initialise them to 0.
-3. Pointer i points to the first array, whereas pointer j points to the second array.
-4. Traverse both the array simultaneously using the pointers, and pick the smallest elements among both the array and insert in into the auxiliary array.
-5. Increment the pointers.
-6. After traversal, return the merged array.
+1. We initialize two variables i and j to 0.
+2. We initialize a third variable k to 0.
+3. We start a while loop with the condition i < n1 and j < n2.
+4. If arr1[i] is less than arr2[j], we assign arr3[k++] with arr1[i++].
+5. If arr1[i] is greater than arr2[j], we assign arr3[k++] with arr2[j++].
+6. If either i or j becomes equal to n1 or n2, we exit the loop.
+7. We then copy the remaining elements of arr1[], if there are any, to arr3[k].
+8. We then copy the remaining elements of arr2[], if there are any, to arr3[k].
  */
 
 // Time & Space Complexity -
@@ -122,6 +124,14 @@ public void merge(int[] nums1, int m, int[] nums2, int n) {
         }
         Arrays.sort(nums1);
     }
+ */
+
+// Approach -
+/*
+1. We initialize a variable i to 0.
+2. We loop through the nums2 array.
+3. We copy the element at index i in nums2 to index i + m in nums1.
+4. We sort nums1.
  */
 
 // Time & Space Complexity -
