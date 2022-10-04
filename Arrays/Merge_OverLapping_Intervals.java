@@ -1,5 +1,8 @@
 package Arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Merge_OverLapping_Intervals {
 
     class Solution {
@@ -25,6 +28,7 @@ public class Merge_OverLapping_Intervals {
             return result.toArray(new int[result.size()][]);
         }
     }
+}
 
 // Output -
 /*
@@ -47,4 +51,3 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 Time - O(N(logN))
 Space - O(N)
 */
-}
