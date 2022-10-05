@@ -1,61 +1,35 @@
-package Arrays;
-
 public class Palindrome_Number {
-    // Is Palindrome Function
-    public boolean isPalindrome(int x) {
 
-        // Constraint
-        if (x < 0) {
-            return false;
-        }
-        // Store the given number (x) in a number variable
-        int number = x;
-        // This will store the reverse of the number
-        int reverse = 0;
-        while (number > 0) {
-            // Store the remainder in rem variable
-            int rem = number % 10;
-            // Add this remainder to reverse
-            reverse = reverse * 10 +  rem;
-            // And then divide the number by 10
-            number = number/10;
-        }
-        // If number is equal to reverse
-        if (x == reverse) {
-            return true;
-        }
-        // Else
-        else {
-            return false;
-        }
+    class Solution {
+        public String isPalindrome(int n) {
+            int num = n;
+            int reverse = 0;
 
-//         2nd Method
-//         int s = 0;
-//         int c = x;
-//         while(x > 0) {
-//             int rem = x % 10;
-//             s = s * 10 + rem;
-//             x = x / 10;
-//         }
-//         if(c == s) {
-//             return true;
-//         }
-//         else {
-//             return false;
-//         }
+            while(num > 0) {
+                int rem = num%10;
+                reverse = reverse * 10 + rem;
+                num = num/10;
+            }
+
+            if(n == reverse) {
+                return "Yes";
+            }
+            else {
+                return "No";
+            }
+        }
     }
 }
 
 // Output -
 /*
-Input: x = 10
-Output: false
-Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
-*/
+Input: n = 55555
+Output: Yes
+ */
 
 // Algorithm -
 /*
-1. Store the given number (x) in a number variable
+1. Store the given number (n) in a number variable
 2. Initialize variable reverse to 0
 3. Store the remainder in rem variable
 4. Add this remainder to reverse

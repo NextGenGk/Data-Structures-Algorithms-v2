@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package Arrays;
 
 public class Find_LCM_and_GCD {
 

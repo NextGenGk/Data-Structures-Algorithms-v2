@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package Arrays;
 
 public class Find_Largest_Element_in_Array {
     class Compute {

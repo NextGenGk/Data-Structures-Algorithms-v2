@@ -1,4 +1,4 @@
-package Arrays.Easy;
+package Arrays;
 
 public class Reverse_Integer {
 
