@@ -29,7 +29,7 @@ public class Majority_Element {
                 count = 1;
             }
         }
-        // finally return result
+        // finally, return result
         return result;
     }
 }
