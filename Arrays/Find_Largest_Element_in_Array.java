@@ -35,6 +35,6 @@ The largest element of given array is 90.
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), because of linearly traverse
+Space - O(1), no extra space is needed
  */
