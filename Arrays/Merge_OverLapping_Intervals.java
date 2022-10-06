@@ -25,7 +25,6 @@ public class Merge_OverLapping_Intervals {
                     result.add(newInterval);
                 }
             }
-
             return result.toArray(new int[result.size()][]);
         }
     }
