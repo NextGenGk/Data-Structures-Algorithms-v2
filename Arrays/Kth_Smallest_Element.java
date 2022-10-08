@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 
 public class Kth_Smallest_Element {
 
+    // Kth Smallest Function
     static int kthSmallest(int[] arr, int k) {
 
         // Implementation using a Priority Queue [Pass Comparator]
@@ -36,7 +37,7 @@ public class Kth_Smallest_Element {
 
 // Idea -
 /*
-Find Largest Element then use (Min Heap) [In Java By Deafault Min Heap]
+Find Largest Element then use (Min Heap) [In Java By Default Min Heap]
 Find Smallest Element then use (Max Heap) [Use Comparator - Collections.reverseOrder()]
  */
 
