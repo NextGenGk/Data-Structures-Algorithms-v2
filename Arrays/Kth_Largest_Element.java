@@ -5,8 +5,7 @@ import java.util.PriorityQueue;
 public class Kth_Largest_Element {
     // Function to find k largest array element
     public int findKthLargest(int[] nums, int k) {
-        // Implementation using
-        // a Priority Queue
+        // Implementation using a Priority Queue
         PriorityQueue<Integer> pq = new PriorityQueue<>();
 
         // Looping through all elements
@@ -21,7 +20,7 @@ public class Kth_Largest_Element {
                 pq.poll();
             }
         }
-        // Finally return this remove element
+        // Finally, return this remove element
         return pq.poll();
     }
 }
@@ -44,7 +43,7 @@ Output: 5
 2. Loop through to length of the array
 3. And add current element
 4. Checks, If size of the priority queue exceeds k, than remove (Min Heap) topmost element
-5. Finally return (Min Heap) topmost element
+5. Finally, return (Min Heap) topmost element
  */
 
 // Time & Space Complexity -
