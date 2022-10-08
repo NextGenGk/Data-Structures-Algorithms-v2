@@ -27,8 +27,8 @@ public class Kth_Largest_Element {
 
 // Idea -
 /*
-Find Largest Element then use (Min Heap) [In Java By Default Min Heap]
-Find Smallest Element then use (Max Heap) [Use Comparator - Collections.reverseOrder()]
+ * Find Largest Element then use (Min Heap) [In Java By Default Min Heap]
+ * Find Smallest Element then use (Max Heap) [Use Comparator - Collections.reverseOrder()]
  */
 
 // Output -
