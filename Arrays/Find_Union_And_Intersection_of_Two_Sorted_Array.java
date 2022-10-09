@@ -8,7 +8,7 @@ public class Find_Union_And_Intersection_of_Two_Sorted_Array {
        m is the number of elements in arr1[]
        n is the number of elements in arr2[] */
     // Find Union Function
-    static int findUnion(int[] arr1, int[] arr2, int m, int n) {
+    static void findUnion(int[] arr1, int[] arr2, int m, int n) {
         // Initial values i = 0, j = 0
         int i = 0;
         int j = 0;
@@ -42,7 +42,6 @@ public class Find_Union_And_Intersection_of_Two_Sorted_Array {
             System.out.println(arr2[j] + " ");
             j++;
         }
-        return 0;
     }
 
     // Intersection -
