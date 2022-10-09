@@ -1,6 +1,6 @@
 package Arrays;
 
-public class Maximum_SubArray {
+public class Maximum_SubArray_Sum {
     // Maximum SubArray Sum Function
     public int maxSubArray(int[] nums) {
         // Initialize currentSum to 0, & maxSum to 1st element of array
@@ -8,7 +8,7 @@ public class Maximum_SubArray {
         int maxSum = nums[0];
 
         // Loop through each element of array
-        for (int i=0; i<nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) {
             // Add 1st element of array to currentSum
             currentSum = currentSum + nums[i];
 
@@ -36,7 +36,7 @@ Output: 6
 Explanation: [4,-1,2,1] has the largest sum = 6.
 */
 
-// Algorithms (Kadane Algorithm) -
+// Algorithms (Kadane's Algorithm) -
 /*
 1. Initialize currentSum to 0, & maxSum to 1st element of array
 2. Loop through each element of the array & Add 1st element of array to currentSum
