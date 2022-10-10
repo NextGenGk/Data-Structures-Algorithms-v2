@@ -17,8 +17,7 @@ public class Minimize_the_Maximum_Heights {
 
             // Loop through array length
             for (int i = 1; i < n; i++) {
-                // if on subtracting k we got negative then
-                // continue
+                // if on subtracting k we got negative then, continue
                 if (arr[i] - k < 0) continue;
 
                 // Minimum element when we add k to whole array
