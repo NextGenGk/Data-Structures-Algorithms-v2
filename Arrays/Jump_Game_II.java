@@ -38,6 +38,13 @@ Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 st
     farthest = i + nums[i]
     If end is reached, then ith jump is finished, therefore update end = farthest.
 3. Return total jumps.
+
+// New Approach -
+1. We initialize jumps to 0 and currentJumpEnd to 0.
+2. We loop through the array length - 1.
+3. We find the farthest jump that can be made from the current index.
+4. If i == currentJumpEnd, then we increase the jumps by 1.
+5. Finally, we return the minimum jumps.
  */
 
 // Time & Space Complexity -
