@@ -49,6 +49,6 @@ Explanation: The minimum number of jumps to reach the last index is 2. Jump 1 st
 
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(1)
+Time - O(N), because of linear traversal
+Space - O(1), no extra space is needed
  */
