@@ -76,8 +76,8 @@ The result of the merge is [1,2,2,3,5,6] with the underlined elements coming fro
 
 // Time & Space Complexity -
 /*
-Time - O(m+n)
-Space - O(1)
+Time - O(m+n), where m & n size of 1st and 2nd array
+Space - O(1), because no extra space is needed
 */
 
 // 2nd Approach (Merge Sort Method) -
