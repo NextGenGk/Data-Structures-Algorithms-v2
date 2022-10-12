@@ -8,7 +8,7 @@ public class Merge_OverLapping_Intervals {
 
     class Solution {
         public int[][] merge(int[][] intervals) {
-            // base case
+            // Base case
             if (intervals.length <= 1)
                 return intervals;
 
