@@ -8,6 +8,7 @@ public class Merge_OverLapping_Intervals {
 
     class Solution {
         public int[][] merge(int[][] intervals) {
+            // base case
             if (intervals.length <= 1)
                 return intervals;
 
@@ -48,6 +49,6 @@ Explanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].
 
 // Time & Space Complexity -
 /*
-Time - O(N(logN))
-Space - O(N)
+Time - O(N(logN)), log*N for sorting & N for linear traverse an array
+Space - O(N), because of using extra space
 */
