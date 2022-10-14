@@ -44,6 +44,6 @@ Note that buying on day 2 and selling on day 1 is not allowed because you must b
 
 // Time & Space Complexity
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), because of traverse each element by once
+Space - O(1), no extra space is needed
  */
