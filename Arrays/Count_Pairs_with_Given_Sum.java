@@ -47,7 +47,6 @@ and arr[1] + arr[3] = 5 + 1 = 6.
 
 // Time & Space Complexity -
 /*
-
 Time - O(N)
 Space - O(N)
 */
