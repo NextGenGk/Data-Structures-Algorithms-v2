@@ -33,7 +33,7 @@ public class Maximum_Product_SubArray {
                 product = 1;
             }
         }
-        // Finally return maxProduct
+        // Finally, return maxProduct
         return maxProduct;
     }
 }
