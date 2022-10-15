@@ -60,6 +60,6 @@ Explanation: The above elevation map (black section) is represented by array [0,
 
 // Time & Space Complexity -
 /*
-TIme - O(N)
-Space - O(N)
+TIme - O(N), because each element should traverse one time
+Space - O(N), because we use extra storage space
  */
