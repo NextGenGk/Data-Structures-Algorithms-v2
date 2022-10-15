@@ -59,6 +59,6 @@ Explanation: [2,3] has the largest product 6.
 
 // Time & Space Complexity -
 /*
-Time - 0(N)
-Space - O(1)
+Time - O(N), because each element should traverse one time
+Space - O(1), no extra space is needed
  */
