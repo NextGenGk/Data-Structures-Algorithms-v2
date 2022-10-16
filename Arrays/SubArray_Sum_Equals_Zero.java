@@ -28,10 +28,8 @@ public class SubArray_Sum_Equals_Zero {
 Input:
 5
 4 2 -3 1 6
-
 Output:
 Yes
-
 Explanation:
 2, -3, 1 is the subarray with sum 0.
 */
