@@ -34,10 +34,10 @@ Other ways such as [1,-2,2,-5,3,-4], [3,1,2,-2,-5,-4], [-2,3,-5,1,-4,2] are inco
 
 // Algorithm -
 /*
-1. We first find the number of positive and negative numbers in the array.
-2. We then create two arrays of the same size as the original array.
-3. We then iterate through the original array and copy the positive numbers to the first array and the negative numbers to the second array.
-4. Finally, we copy the first array to the original array and the second array to the original array.
+1. First we create result auxiliary array with the size of array length
+2. And iterate through length of array & check
+    i. if value is positive then added to the result auxiliary array, & jump by 2 steps
+   ii. else, added to the negative, & jump by 2 steps
 */
 
 // Time & Space Complexity -
