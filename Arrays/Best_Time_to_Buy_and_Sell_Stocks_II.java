@@ -16,7 +16,7 @@ public class Best_Time_to_Buy_and_Sell_Stocks_II {
                 maxProfit = maxProfit + (prices[i] - prices[i-1]);
             }
         }
-        // Finally return maxProfit
+        // Finally, return maxProfit
         return maxProfit;
     }
 }
@@ -37,11 +37,11 @@ Total profit is 4 + 3 = 7.
 3. Checking, if current elements is greater than previous elements,
    then subtract current Element - previous Element
    & then add on profit
-4. Finally return maxProfit
+4. Finally, return maxProfit
  */
 
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(1)
+Time - O(N), because we linearly traverse an array
+Space - O(1), no extra space is needed
  */
