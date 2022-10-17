@@ -81,7 +81,7 @@ Explanation: The longest consecutive elements sequence is [1, 2, 3, 4]. Therefor
 3. Then, we iterate the HashMap and check if any elements of the HashMap contains true value. If it does, then we find the length of the longest consecutive sequence.
 4. Finally, we return the maximum length.
 
-2ns Approach -
+2nd Approach -
 1. We first create a HashSet to store all the numbers in the array.
 2. Then we iterate through the array and add each number to the HashSet.
 3. Then we iterate through the array again and for each number we check if it’s the start of a sequence by checking if it’s not already contained in the HashSet.
