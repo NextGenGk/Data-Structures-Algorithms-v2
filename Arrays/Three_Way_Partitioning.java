@@ -6,7 +6,6 @@ public class Three_Way_Partitioning {
         //Function to partition the array around the range such
         //that array is divided into three parts.
         public void threeWayPartition(int[] array, int a, int b) {
-            // code here
             int low = 0;
             int mid = 0;
             int high = array.length - 1;
