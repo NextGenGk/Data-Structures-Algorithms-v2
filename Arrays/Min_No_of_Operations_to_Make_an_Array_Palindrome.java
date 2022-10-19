@@ -36,7 +36,7 @@ public class Min_No_of_Operations_to_Make_an_Array_Palindrome {
             return ans;
         }
 
-        // Driver method to test the above function
+        // Main Function
         public static void main(String[] args) {
             int[] arr = new int[]{1, 4, 5, 1};
             System.out.println("Count of minimum operations is " +
