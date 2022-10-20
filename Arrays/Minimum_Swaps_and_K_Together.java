@@ -42,7 +42,7 @@ public class Minimum_Swaps_and_K_Together {
             return ans;
         }
 
-        // Driver code
+        // Main Class
         public static void main(String[] args) {
             int[] arr = {2, 1, 5, 6, 3};
             int n = arr.length;
