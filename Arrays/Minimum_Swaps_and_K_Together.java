@@ -11,16 +11,20 @@ public class Minimum_Swaps_and_K_Together {
             // Find count of elements which are
             // less than equals to k
             int count = 0;
-            for (int i = 0; i < n; ++i)
-                if (arr[i] <= k)
+            for (int i = 0; i < n; ++i) {
+                if (arr[i] <= k) {
                     ++count;
+                }
+            }
 
             // Find unwanted elements in current
             // window of size 'count'
             int bad = 0;
-            for (int i = 0; i < count; ++i)
-                if (arr[i] > k)
+            for (int i = 0; i < count; ++i) {
+                if (arr[i] > k) {
                     ++bad;
+                }
+            }
 
             // Initialize answer with 'bad' value of
             // current window
