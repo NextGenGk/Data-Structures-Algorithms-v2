@@ -4,6 +4,8 @@ public class Search_in_a_2D_Matrix {
 
     class Solution {
         public boolean searchMatrix(int[][] matrix, int target) {
+            if (matrix.length == 0) return false;
+
             int n = matrix.length;
             int m = matrix[0].length;
 
