@@ -2,7 +2,7 @@ package Arrays;
 
 import java.util.HashMap;
 
-public class Largest_Subarray_with_Zero_Sum {
+public class Largest_SubArray_with_Zero_Sum {
 
     int maxLen(int[] arr, int n) {
         // prefix sum, index
