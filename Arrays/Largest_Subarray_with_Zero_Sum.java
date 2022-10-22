@@ -5,6 +5,7 @@ import java.util.HashMap;
 public class Largest_Subarray_with_Zero_Sum {
 
     int maxLen(int[] arr, int n) {
+        // prefix sum, index
         HashMap<Integer, Integer> map = new HashMap<>();
         int maxi = 0;
         int sum = 0;
