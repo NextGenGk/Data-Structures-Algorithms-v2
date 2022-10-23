@@ -84,6 +84,6 @@ Efficient Approach:  We can use the two-pointer technique and a sliding window.
 
 // Time & Space Complexity -
 /*
-Time - O(N), because we linearly traverse an array
+Time - O(N), because we linearly traverse an array by once
 Space - O(1), no extra space is needed
  */
