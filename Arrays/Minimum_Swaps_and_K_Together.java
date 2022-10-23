@@ -75,7 +75,6 @@ Output: 2
 // Algorithm -
 /*
 Efficient Approach:  We can use the two-pointer technique and a sliding window.
-
 1. Find the count of all elements which are less than or equal to ‘k’. Let’s say the count is ‘cnt’
 2. Using the two-pointer technique for a window of length ‘cnt’, each time keep track of how many elements in
  this range are greater than ‘k’. Let’s say the total count is ‘bad’.
