@@ -1,5 +1,8 @@
 package Arrays;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Print_Spiral_Matrix {
 
     class Solution {
@@ -57,7 +60,8 @@ Output: [1,2,3,6,9,8,7,4,5]
 // Algorithm -
 /*
 1. First, we initialize the list and the four boundaries.
-2. Then, we check if the left boundary is less than or equal to the right boundary, and the top boundary is less than or equal to the bottom boundary.
+2. Then, we check if the left boundary is less than or equal to the right boundary, and the top boundary is less than
+ or equal to the bottom boundary.
 3. If the above condition is true, we check the direction.
 4. If the direction is 0, we traverse the matrix row by row from left to right.
 5. If the direction is 1, we traverse the matrix column by column from top to bottom.
