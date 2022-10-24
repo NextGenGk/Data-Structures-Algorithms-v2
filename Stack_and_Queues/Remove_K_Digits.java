@@ -8,7 +8,7 @@ public class Remove_K_Digits {
         public String removeKdigits(String num, int k) {
             int len = num.length();
 
-            // corner Case
+            // corner case
             if (k == len) {
                 return "0";
             }
