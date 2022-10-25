@@ -51,6 +51,6 @@ public int fibonacciRecursive(int n) {
 
 // Output -
 /*
-Time - O(n)
-Space - O(n)
+Time - O(N)
+Space - O(N)
 */
