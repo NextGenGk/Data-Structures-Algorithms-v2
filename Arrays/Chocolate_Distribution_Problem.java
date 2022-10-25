@@ -43,6 +43,6 @@ is 9 - 3 = 6 by choosing following M packets : {3, 4, 9, 7, 9}.
 
 // Time & Space Complexity -
 /*
-Time - O(N*Log(N)), because log*N for sorting & N is linearly traverse an array
+Time - O(N*Log(N)), where log*N for sorting & N is linearly traverse an array
 Space - O(1), no extra space is needed
 */
