@@ -8,10 +8,10 @@ public class Row_wih_Max_Ones {
             int col = m - 1;
             int row = -1;
 
-            // Traversing row by row
+            // Linearly traversing row by row
             for (int i = 0; i < n; i++) {
 
-                // last column to first
+                // traverse last column to first
                 for (int j = col; j >= 0; j--) {
                     // if, any column value is equal to 1
                     // than row updates to row index
