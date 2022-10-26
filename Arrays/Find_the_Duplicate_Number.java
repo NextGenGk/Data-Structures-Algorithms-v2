@@ -41,6 +41,6 @@ Output: 2
 
 // Time & Space Complexity -
 /*
-Time - O(N), because on linearly traversing
+Time - O(N), because on linearly traversing an array by once
 Space - O(1), no extra space is needed
 */
