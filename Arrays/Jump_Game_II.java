@@ -19,7 +19,7 @@ public class Jump_Game_II {
                 currentJumpEnd = farthest;
             }
         }
-        // Finally Return total jumps
+        // Finally, Return total jumps
         return jumps;
     }
 }
