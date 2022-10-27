@@ -8,7 +8,7 @@ public class Row_wih_Max_Ones {
             int col = m - 1;
             int row = -1;
 
-            // Linearly traversing row by row
+            // linearly traversing row by row
             for (int i = 0; i < n; i++) {
 
                 // traverse last column to first
