@@ -41,6 +41,6 @@ Output: [[7,4,1],[8,5,2],[9,6,3]]
 
 // Time & Space Complexity -
 /*
-Time - O(N^2), where N^2 for transposing a matrix & another N^2 for reversing the transposing matrix
+Time - O(N^2), where N^2 for transposing a matrix & another N^2 for reversing the transposing matrix, means total is O(N^2)
 Space - O(1), no extra space is needed
 */
