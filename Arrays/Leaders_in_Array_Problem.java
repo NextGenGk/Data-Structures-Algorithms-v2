@@ -11,6 +11,7 @@ public class Leaders_in_Array_Problem {
             ArrayList<Integer> ans = new ArrayList<>();
             int max = Integer.MIN_VALUE;
 
+            // traversing the array from right to left
             for (int i = n - 1; i >= 0; i--) {
                 if (arr[i] >= max) {
                     ans.add(arr[i]);
