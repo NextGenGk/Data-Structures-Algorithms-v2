@@ -30,7 +30,7 @@ Input:
 n = 6
 A[] = {16,17,4,3,5,2}
 Output: 17 5 2
-Explanation: The first leader is 17 as it is greater than all the elements to its right.  Similarly, the next
+Explanation: The first leader is 17 as it is greater than all the elements to its right. Similarly, the next
 leader is 5. The right most element is always a leaders, so it is also included.
 */
 
