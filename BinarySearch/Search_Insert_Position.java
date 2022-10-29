@@ -1,4 +1,4 @@
-package Arrays;
+package BinarySearch;
 
 public class Search_Insert_Position {
     // Search Insert Function (Using Binary Search)
