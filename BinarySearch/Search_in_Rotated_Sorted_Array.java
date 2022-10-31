@@ -4,9 +4,8 @@ public class Search_in_Rotated_Sorted_Array {
     // Search in Rotated Sorted Array Function
     public int search(int[] nums, int target) {
         // Normal Binary Search
-        // Starting index
+        // Starting & Ending Index
         int low = 0;
-        // Ending index
         int high = nums.length-1;
 
         // while low index is smaller & equal to high index
