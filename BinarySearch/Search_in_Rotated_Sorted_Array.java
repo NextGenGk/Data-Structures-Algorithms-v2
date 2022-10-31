@@ -1,4 +1,4 @@
-package Arrays;
+package BinarySearch;
 
 public class Search_in_Rotated_Sorted_Array {
     // Search in Rotated Sorted Array Function
