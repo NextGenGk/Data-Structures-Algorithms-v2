@@ -1,4 +1,4 @@
-package Arrays;
+package BinarySearch;
 
 public class Find_First_and_Last_Position_of_Element_in_Sorted_Array {
     // Find First and Last Position of Element in Sorted Array Function
