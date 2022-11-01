@@ -38,7 +38,7 @@ Explanation: The original array was [1,2,3,4,5] rotated 3 times.
 2. While start index is smaller than end index
 3. Check, If middle element is greater than ending element, Start is start from mid + 1
 4. Else, the value of mid index is store in ending index
-5. Finally return starting element
+5. Finally, return starting element
  */
 
 // Time & Space Complexity -
