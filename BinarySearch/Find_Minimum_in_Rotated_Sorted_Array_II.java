@@ -44,7 +44,7 @@ Output: 0
 4. Else if, the value of mid element is smaller than ending element,
    the value of mid index is store in ending index
 5. Else, decrement ending index by one
-6. Finally return starting element
+6. Finally, return starting element
  */
 
 // Time & Space Complexity -
