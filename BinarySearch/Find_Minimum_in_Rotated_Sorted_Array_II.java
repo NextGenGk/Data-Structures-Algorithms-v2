@@ -1,4 +1,4 @@
-package Arrays;
+package BinarySearch;
 
 public class Find_Minimum_in_Rotated_Sorted_Array_II {
     // Find Minimum In Rotated Sorted Array Function
