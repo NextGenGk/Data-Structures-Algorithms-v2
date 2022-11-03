@@ -1,6 +1,7 @@
 package Arrays;
 
 public class Rotate_Array_by_One_Positions {
+
     public static void solve(int[] nums, int n) {
         // storing the first element of array in a variable
         int temp = nums[0];
