@@ -13,7 +13,7 @@ public class Rotate_Array_by_One_Positions {
         }
     }
 
-    // main Function
+    // Main Function
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
         int n = 5;
