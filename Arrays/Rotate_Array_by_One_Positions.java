@@ -1,7 +1,6 @@
 package Arrays;
 
 public class Rotate_Array_by_One_Positions {
-
     public static void solve(int[] nums, int n) {
         int temp = nums[0]; // storing the first element of array in a variable
         // shift the array by one positions
@@ -14,6 +13,7 @@ public class Rotate_Array_by_One_Positions {
         }
     }
 
+    // main Function
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 5};
         int n = 5;
