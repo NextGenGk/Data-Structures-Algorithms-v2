@@ -44,5 +44,5 @@ Explanation: The original array was [1,2,3,4,5] rotated 3 times.
 // Time & Space Complexity -
 /*
 Time - O(log*n), log*n because of using modified binary search
-Space - O(1), no extra space is needed
+Space - O(1), we are not using any extra space
  */
