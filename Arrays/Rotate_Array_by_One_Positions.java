@@ -46,6 +46,6 @@ first index and ‘1’ which was present at first index will be shifted at last
 
 // Time & Space Complexity -
 /*
-Time - O(n), as we iterate through the array only once.
+Time - O(N), as we iterate through the array only once.
 Space - O(1) as no extra space is used
  */
