@@ -2,13 +2,16 @@ package Arrays;
 
 public class Rotate_Array_by_One_Positions {
     public static void solve(int[] nums, int n) {
-        int temp = nums[0]; // storing the first element of array in a variable
+        // storing the first element of array in a variable
+        int temp = nums[0];
 
         // shift the array by one positions
         for (int i = 0; i < n - 1; i++) {
             nums[i] = nums[i + 1];
         }
-        nums[n - 1] = temp; // assigned the value of variable at the last index
+
+        // assigned the value of variable at the last index
+        nums[n - 1] = temp;
         for (int i = 0; i < n; i++) {
             System.out.print(nums[i] + " ");
         }
