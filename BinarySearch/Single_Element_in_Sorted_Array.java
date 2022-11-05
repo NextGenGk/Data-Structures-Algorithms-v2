@@ -53,6 +53,6 @@ the single element that occurs once. So we update high to mid-1.
 
 // Time & Space Complexity -
 /*
-Time - O(log*n)
+Time - O(log*N)
 Space _ O(1)
 */
