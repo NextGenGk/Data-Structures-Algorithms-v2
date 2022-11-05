@@ -35,7 +35,7 @@ Input: nums = [1,1,2,3,3,4,4,8,8]
 Output: 2
 */
 
-// Algoritm -
+// Algorithm -
 /*
 1. We first initialize low and high to 0 and nums.length-2 respectively.
 2. We then enter a while loop with the condition low <= high.
