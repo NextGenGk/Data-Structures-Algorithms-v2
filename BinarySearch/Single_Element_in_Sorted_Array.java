@@ -95,10 +95,10 @@ Output: 2
 
 // Idea -
 /*
-* In order to check for the left half
-// 1st Instance - Even Index
-// 2nd Instance - Odd Index, i need to check on the left, if the 1st instance of that number is there o not
-*/
+ * In order to check for the left half
+ * 1st Instance - Even Index
+ * 2nd Instance - Odd Index, I need to check on the left, if the 1st instance of that number is there o not
+ */
 
 // Time & Space Complexity -
 /*
