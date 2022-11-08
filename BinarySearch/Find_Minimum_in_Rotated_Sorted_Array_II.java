@@ -49,6 +49,6 @@ Output: 0
 
 // Time & Space Complexity -
 /*
-Time - O(log*n), log*n because of using modified binary search
+Time - O(log*N), because of using modified binary search
 Space - O(1), we are not using any extra space
  */
