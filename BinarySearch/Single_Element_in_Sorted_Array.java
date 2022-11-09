@@ -58,7 +58,6 @@ Space - O(1)
 */
 
 // New Approach
-
 class Solution {
     public int singleNonDuplicate(int[] nums) {
         int low = 0;
