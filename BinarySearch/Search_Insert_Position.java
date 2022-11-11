@@ -46,8 +46,8 @@ Output: 2
 
 // Time & Space Complexity -
 /*
-   Worst complexity: O(log n)
-   Average complexity: O(log n)
+   Worst complexity: O(log*N)
+   Average complexity: O(log*N)
    Best complexity: O(1)
    Space complexity: O(1)
 */
