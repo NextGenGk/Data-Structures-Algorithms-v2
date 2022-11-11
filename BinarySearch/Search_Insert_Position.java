@@ -24,7 +24,7 @@ public class Search_Insert_Position {
                 high = mid - 1;
             }
         }
-        // Finally return low
+        // Finally, return low
         return low;
     }
 }
