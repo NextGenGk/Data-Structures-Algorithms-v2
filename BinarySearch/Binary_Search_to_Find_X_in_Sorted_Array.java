@@ -9,7 +9,6 @@ public class Binary_Search_to_Find_X_in_Sorted_Array {
 
             while (low <= high) {
                 int mid = low + (high - low) / 2;
-
                 if (nums[mid] == target) return mid;
                 else if (nums[mid] < target) {
                     low = mid + 1;
