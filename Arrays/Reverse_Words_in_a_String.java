@@ -1,6 +1,7 @@
 package Arrays;
 
 public class Reverse_Words_in_a_String {
+
     class Solution {
         public String reverseWords(String s) {
             int i = s.length() - 1;
@@ -9,7 +10,6 @@ public class Reverse_Words_in_a_String {
 
             while (i >= 0) {
                 while (i >= 0 && s.charAt(i) == ' ') i--;
-
                 int j = i;
 
                 if (i < 0) break;
