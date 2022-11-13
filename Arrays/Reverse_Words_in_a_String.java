@@ -45,6 +45,6 @@ Output: "blue is sky the"
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), we linearly traverse an array by once
+Space - O(1), no extra space is needed
 */
