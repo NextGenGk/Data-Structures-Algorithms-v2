@@ -4,10 +4,10 @@ public class Rotate_String {
 
     class Solution {
         public boolean rotateString(String s, String goal) {
-
             return (s.length() == goal.length() && (s + s).contains(goal));
         }
     }
+}
 
 // Output -
 /*
@@ -29,4 +29,3 @@ B is found in (A + A), so B is a rotated string of A.
 Time - O(N)
 Space - O(1)
 */
-}
