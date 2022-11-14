@@ -16,12 +16,12 @@ Output: true
 */
 
 /* Idea -
-We can easily see whether it is rotated if B can be found in (A + A).
-For example, with A = "abcde", B = "cdeab", we have
+We can easily see whether it is rotated if goal can be found in (s + s).
+For example, with s = "abcde", goal = "cdeab", we have
 
-“abcdeabcde” (A + A)
-  “cdeab” (B)
-B is found in (A + A), so B is a rotated string of A.
+“abcdeabcde” (s + s)
+  “cdeab” (goal)
+goal is found in (s + s), so goal is a rotated string of A.
 */
 
 // Time & Space Complexity -
