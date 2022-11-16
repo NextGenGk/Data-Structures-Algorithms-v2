@@ -20,7 +20,7 @@ Input: s = "anagram", t = "nagaram"
 Output: true
 */
 
-// Algorihtm -
+// Algorithm -
 /*
 1. First, we check if the two strings have the same length. If they don’t, then they can’t be anagrams.
 2. Next, we create an array of 26 integers, each representing the count of a corresponding English letter in the alphabet.
