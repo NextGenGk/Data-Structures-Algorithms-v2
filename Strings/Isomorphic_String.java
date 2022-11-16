@@ -55,5 +55,5 @@ g - d
 // Time & Space Complexity -
 /*
 Time - O(N), because we linearly traverse an array by once
-Space - O(N), because we using HashMap to store the characters
+Space - O(N), because using HashMap to store the characters
 */
