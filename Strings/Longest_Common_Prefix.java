@@ -22,7 +22,6 @@ public class Longest_Common_Prefix {
                 }
                 res.append(first[i]);
             }
-
             return res.toString();
         }
     }
