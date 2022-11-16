@@ -26,6 +26,6 @@ goal is found in (s + s), so goal is a rotated string of A.
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), where N is the length of the string
+Space - O(1), because no extra memory is required
 */
