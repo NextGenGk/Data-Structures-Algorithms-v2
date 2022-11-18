@@ -3,6 +3,7 @@ package Strings;
 import java.util.HashMap;
 
 public class Isomorphic_String {
+
     class Solution {
         public boolean isIsomorphic(String s, String t) {
             HashMap<Character, Character> map = new HashMap<>();
@@ -18,6 +19,7 @@ public class Isomorphic_String {
                         return false;
                     }
                 }
+
                 // if map contains value of p2 means
                 // p2 key is possible, so return false
                 else if (map.containsValue(p2)) {
