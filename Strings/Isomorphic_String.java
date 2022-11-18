@@ -46,10 +46,16 @@ g - d
 // Algorithm -
 /*
 1. We first check if the lengths of the two strings are the same. If not, then we return false.
-2. We create a HashMap to store the characters of the first string as keys and the characters of the second string as values.
-3. We then iterate through the characters of the first string and check if the character is already present in the HashMap as a key. If it is, then we check if the value of the key in the HashMap is equal to the character in the second string. If not, then we return false.
-4. If the character is not present in the HashMap as a key, then we check if the character of the second string is already present in the HashMap as a value. If it is, then we return false.
-5. If the character is not present in the HashMap as a key and the character is not present in the HashMap as a value, then we add the character as a key and the character of the second string as a value to the HashMap.
+2. We create a HashMap to store the characters of the first string as keys and the characters of the second string
+ as values.
+3. We then iterate through the characters of the first string and check if the character is already present in the
+HashMap as a key. If it is, then we check if the value of the key in the HashMap is equal to the character in the
+second string. If not, then we return false.
+4. If the character is not present in the HashMap as a key, then we check if the character of the second string is
+already present in the HashMap as a value. If it is, then we return false.
+5. If the character is not present in the HashMap as a key and the character
+is not present in the HashMap as a value, then we add the character as a key and the character of the
+second string as a value to the HashMap.
 6. Finally, we return true.
 */
 
