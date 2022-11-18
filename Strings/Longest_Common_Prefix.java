@@ -3,6 +3,7 @@ package Strings;
 import java.util.Arrays;
 
 public class Longest_Common_Prefix {
+
     class Solution {
         public String longestCommonPrefix(String[] strs) {
             StringBuilder res = new StringBuilder();
