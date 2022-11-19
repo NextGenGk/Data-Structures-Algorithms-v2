@@ -1,7 +1,6 @@
 package Arrays;
 
 public class Best_Time_to_Buy_and_Sell_Stocks_I {
-
     // MaxProfit Function
     public int maxProfit(int[] prices) {
         // Initialize minSoFar to 1st element of prices
