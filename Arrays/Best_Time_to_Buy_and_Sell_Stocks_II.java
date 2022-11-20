@@ -4,7 +4,7 @@ public class Best_Time_to_Buy_and_Sell_Stocks_II {
     // Best Time to Buy & Sell Stocks II
     // (Max Profit Function)
     public int maxProfit(int[] prices) {
-        // Initialize profit to 0
+        // Initialize maxProfit to 0
         int maxProfit = 0;
 
         // Looping through prices.length
