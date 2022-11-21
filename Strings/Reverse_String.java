@@ -33,6 +33,9 @@ Output: ["o","l","l","e","h"]
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N) (Average Case) and O(N)
+(Worst Case) where N is the total number character in the input string. The algorithm need to reverse the whole string.
+
+Space: O(1) space is used where N is the total number character in the input string.
+Space is needed to transform string to character array.
 */
