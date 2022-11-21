@@ -21,6 +21,8 @@ public class Reverse_String {
 /*
 Input: s = ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
+
+Idea - Same as reverse a simple string
 */
 
 // Algorithm -
