@@ -1,4 +1,4 @@
-package Arrays;
+package Strings;
 
 public class Valid_Palindrome {
     // Is Palindrome Function
