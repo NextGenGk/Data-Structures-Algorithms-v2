@@ -1,6 +1,6 @@
 package Strings;
 
-public class Valid_Palindrome {
+class Solution {
     // Is Palindrome Function
     public boolean isPalindrome(String s) {
         // Convert string to lowerCase
@@ -9,7 +9,7 @@ public class Valid_Palindrome {
         StringBuilder b = new StringBuilder();
 
         // Looping through string character length
-        for(int i=0; i<s.length(); i++) {
+        for (int i = 0; i < s.length(); i++) {
             // Check, if character is digits or character is letter
             // if yes, then append this character to b
             if (Character.isDigit(s.charAt(i)) || Character.isLetter(s.charAt(i))) {
@@ -47,14 +47,10 @@ Explanation: "amanaplanacanalpanama" is a palindrome.
 1. Convert string to lowerCase
 2. Create a StringBuilder object
 3. Looping through string character length
-4. Check, if character is digits or character is letter
-   if yes, then append this character to b
+4. Check, if character is digits or character is letter if yes, then append this character to b
 5. Store last value in n variable
-6. Looping through half of the string element
-   and check, if character at index of i is
-   not equal to last element,
-   then increment i by one & decrement n by one
-   return false
+6. Looping through half of the string element and check, if character at index of i isnot equal to last element,
+then increment i by one & decrement n by one return false
 7. If all the string are matching, return true
 */
 
