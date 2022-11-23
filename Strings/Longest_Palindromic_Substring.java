@@ -43,6 +43,9 @@ Output: "bab"
 Explanation: "aba" is also a valid answer.
 */
 
+// Idea -
+// Intution - Expand from centre
+
 // Algorithm -
 /*
 1. We start with a simple loop that iterates through the string.
