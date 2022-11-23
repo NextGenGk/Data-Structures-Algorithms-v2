@@ -31,6 +31,7 @@ public class Longest_Palindromic_Substring {
                 i--;
                 j++;
             }
+            // return boundary of maxLen
             return j - i - 1;
         }
     }
