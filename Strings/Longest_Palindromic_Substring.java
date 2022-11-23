@@ -45,7 +45,7 @@ Explanation: "aba" is also a valid answer.
 */
 
 // Idea -
-// Intution - Expand from centre
+// Intuition - Expand from centre
 
 // Algorithm -
 /*
