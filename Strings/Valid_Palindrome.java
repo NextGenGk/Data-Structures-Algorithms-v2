@@ -49,7 +49,7 @@ Explanation: "amanaplanacanalpanama" is a palindrome.
 3. Looping through string character length
 4. Check, if character is digits or character is letter if yes, then append this character to b
 5. Store last value in n variable
-6. Looping through half of the string element and check, if character at index of i isnot equal to last element,
+6. Looping through half of the string element and check, if character at index of i is not equal to last element,
 then increment i by one & decrement n by one return false
 7. If all the string are matching, return true
 */
