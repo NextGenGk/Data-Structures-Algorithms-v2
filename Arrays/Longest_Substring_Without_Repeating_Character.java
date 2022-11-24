@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Longest_Substring_Without_Repeating_Character {
-    // Length of Longest Substring Function
+    // Length of the Longest Substring Function
     public int lengthOfLongestSubstring(String s) {
         // Initialize variable left, right & max to 0
         int left = 0; int right = 0;
@@ -31,12 +31,12 @@ public class Longest_Substring_Without_Repeating_Character {
                     set.remove(s.charAt(left));
                     left++;
                 }
-                // Finally the char remove frm the string * increment left pointer
+                // Finally, the char remove frm the string * increment left pointer
                 set.remove(c);
                 left++;
             }
         }
-        // Finally return max length window
+        // Finally, return max length window
         return max;
     }
 }
