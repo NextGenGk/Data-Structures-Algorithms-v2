@@ -23,6 +23,7 @@ public class Longest_Substring_Without_Repeating_Character {
                 max = Math.max(max, right - left + 1) ;
                 right++;
             }
+
             // Else
             else {
                 // While string left char is not equal to char at left
