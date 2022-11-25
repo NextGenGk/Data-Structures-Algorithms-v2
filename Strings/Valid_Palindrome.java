@@ -16,6 +16,7 @@ class Solution {
                 b.append(s.charAt(i));
             }
         }
+
         // Store last value in n variable
         int n = b.length() - 1;
         // Looping through half of the string element
