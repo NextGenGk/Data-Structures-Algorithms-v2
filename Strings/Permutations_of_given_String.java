@@ -2,6 +2,7 @@ package Strings;
 
 public class Permutations_of_given_String {
 
+    // Main Function
     public static void main(String[] args) {
         String str = "ABC";
         int n = str.length();
