@@ -50,19 +50,21 @@ public class Next_Permutation {
         reverse(nums, i + 1, nums.length - 1);
     }
 
-    public void reverse(int[] nums, int i, int j) {
-        while (i < j) {
-           swap(nums, i, j);
-           i++;
-           j--;
+        // Reverse Function
+        public void reverse(int[] nums, int i, int j) {
+            while (i < j) {
+                swap(nums, i, j);
+                i++;
+                j--;
+            }
         }
-    }
 
-    public void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
-    }
+        // Swap Function
+        public void swap(int[] nums, int i, int j) {
+            int temp = nums[i];
+            nums[i] = nums[j];
+            nums[j] = temp;
+        }
     }
 }
 
