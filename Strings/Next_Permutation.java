@@ -86,7 +86,7 @@ Step 3: Swap values present in indices found in the above two steps.
 
 Step 4: Reverse array from index+1 where the index is found at step 1 till the end of the array.
 
-// Logic / Intution
+// Logic / Intuition
 1. a[i] < a[i+1] idx1 = ?
 2. a[idx2] > a[idx1]
 3. swap (a[idx1], a[idx2])
