@@ -1,4 +1,4 @@
-package Arrays;
+package Strings;
 
 public class Next_Permutation {
 
