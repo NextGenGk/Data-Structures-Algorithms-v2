@@ -3,7 +3,6 @@ package Strings;
 import java.util.Stack;
 
 public class Valid_Parentheses {
-    // Is Valid Function
     public boolean isValid(String s) {
         // Create a Stack
         Stack<Character> stack = new Stack<>();
