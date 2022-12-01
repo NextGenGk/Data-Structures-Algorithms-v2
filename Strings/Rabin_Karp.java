@@ -3,17 +3,6 @@ package Strings;
 import java.util.Scanner;
 
 public class Rabin_Karp {
-
-    // Main Function
-    public static void main(String[] args) {
-        Scanner obj = new Scanner(System.in);
-        System.out.println("Enter input string");
-        String input = obj.nextLine();
-        System.out.println("Enter input string");
-        String pattern = obj.nextLine();
-        rabinKarp(input, pattern);
-    }
-
     // Rabin Karp Function
     public static int rabinKarp(String str, String pattern) {
 
@@ -54,4 +43,20 @@ public class Rabin_Karp {
         }
         return res;
     }
+
+    // Main Function
+    public static void main(String[] args) {
+        Scanner obj = new Scanner(System.in);
+        System.out.println("Enter input string");
+        String input = obj.nextLine();
+        System.out.println("Enter input string");
+        String pattern = obj.nextLine();
+        rabinKarp(input, pattern);
+    }
 }
+
+// Time & Space Complexity -
+/*
+Time - O(N - M + 1), where N is the length of the string, & M is the pattern length
+Space - O(1), no extra space is needed
+ */
