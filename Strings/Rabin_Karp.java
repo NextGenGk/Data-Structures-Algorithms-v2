@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Rabin_Karp {
 
+    // Main Function
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         System.out.println("Enter input string");
@@ -13,11 +14,11 @@ public class Rabin_Karp {
         rabinKarp(input, pattern);
     }
 
+    // Rabin Karp Function
     public static int rabinKarp(String str, String pattern) {
 
         // base case
         if (pattern.length() > str.length() || pattern.length() == 0) return -1;
-
 
         // rabin - karp
         int alphabets = 26;
@@ -40,6 +41,7 @@ public class Rabin_Karp {
         return index;
     }
 
+    // Hash Function
     public static int HashFunction(String inp, int alphabets) {
         int k = inp.length() - 1;
 
