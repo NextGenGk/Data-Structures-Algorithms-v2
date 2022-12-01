@@ -55,6 +55,15 @@ public class Rabin_Karp {
     }
 }
 
+// Output -
+/*
+Enter input string
+ccaccb
+Enter input string
+ccb
+found at index: 3
+ */
+
 // Time & Space Complexity -
 /*
 Time - O(N - M + 1), where N is the length of the string, & M is the pattern length
