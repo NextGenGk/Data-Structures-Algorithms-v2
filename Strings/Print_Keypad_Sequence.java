@@ -7,7 +7,7 @@ public class Print_Keypad_Sequence {
         String output = "";
 
         // Traverse the character array
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < input.length(); i++) {
             // Checking for space
             if (input.charAt(i) == ' ')
                 output = output + "0";
