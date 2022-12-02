@@ -26,7 +26,7 @@ public class Valid_Parentheses {
             }
         }
         // If left & right element are same,
-        //  that means this is valid parentheses, return
+        // that means this is valid parentheses, return
         return stack.isEmpty();
     }
 }
