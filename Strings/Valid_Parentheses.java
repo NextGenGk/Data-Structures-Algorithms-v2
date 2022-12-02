@@ -17,16 +17,16 @@ public class Valid_Parentheses {
                 if (stack.isEmpty()) return false;
                 // If right symbol is encountered & stack's top element is left symbol,
                 // then return false
-                if (c == ')' && stack.peek()!='(') return false;
-                if (c == '}' && stack.peek()!='{') return false;
-                if (c == ']' && stack.peek()!='[') return false;
+                if (c == ')' && stack.peek() != '(') return false;
+                if (c == '}' && stack.peek() != '{') return false;
+                if (c == ']' && stack.peek() != '[') return false;
 
                 // If left parentheses & right parentheses same, then simply pop the top element
                 stack.pop();
             }
         }
-        // If left & right element are same, that means this is valid parentheses
-        // return
+        // If left & right element are same,
+        //  that means this is valid parentheses, return
         return stack.isEmpty();
     }
 }
