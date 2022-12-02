@@ -6,8 +6,7 @@ public class Print_Keypad_Sequence {
     static String printSequence(String[] arr, String input) {
         String output = "";
 
-        // length of input string
-        int n = input.length();
+        // Traverse the character array
         for (int i = 0; i < n; i++) {
             // Checking for space
             if (input.charAt(i) == ' ')
