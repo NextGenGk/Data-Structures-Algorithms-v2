@@ -3,7 +3,6 @@ package Strings;
 public class Print_Keypad_Sequence {
 
     // Function which computes the sequence
-    // Function which computes the sequence
     static String printSequence(String[] arr, String input) {
         String output = "";
 
@@ -24,6 +23,7 @@ public class Print_Keypad_Sequence {
         return output;
     }
 
+    // Main Function
     public static void main(String[] args) {
         // storing the sequence in array
         String[] str
@@ -40,7 +40,7 @@ public class Print_Keypad_Sequence {
 
 // Output -
 /*
-Input: BLAZING
+Input: "BLAZING"
 Output: 2255529999444664
 Explanation: For obtaining a number, we need to press a number corresponding to that character
 for a number of times equal to the position of the character. For example, for character E,
