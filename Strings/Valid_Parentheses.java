@@ -50,6 +50,6 @@ Last In First Out (LIFO) property.
 
 // Time & Space Complexity -
 /*
-Time - O(N), where N, because of linear traversing
+Time - O(N), where N, because of linearly traversing an character array
 Space - O(1), no extra space is needed
  */
