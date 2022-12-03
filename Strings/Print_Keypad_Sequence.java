@@ -4,6 +4,7 @@ public class Print_Keypad_Sequence {
 
     // Function which computes the sequence
     static String printSequence(String[] arr, String input) {
+        // Resultant output, which stores results
         String output = "";
 
         // Traverse the character array
