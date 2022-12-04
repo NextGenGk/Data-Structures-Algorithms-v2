@@ -4,7 +4,6 @@ public class Count_Reversals {
 
     class Sol {
         int countRev(String s) {
-            // your code here
             if (s.length() % 2 != 0) return -1;
 
             int open = 0, close = 0, rev = 0;
@@ -31,8 +30,7 @@ public class Count_Reversals {
 Input:
 S = "}{{}}{{{"
 Output: 3
-Explanation: One way to balance is:
-"{{{}}{}}". There is no balanced sequence
+Explanation: One way to balance is: "{{{}}{}}". There is no balanced sequence
 that can be formed in lesser reversals.
  */
 
@@ -47,6 +45,6 @@ that can be formed in lesser reversals.
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), because we linearly traverse
+Space - O(1), no extra space is needed
  */
