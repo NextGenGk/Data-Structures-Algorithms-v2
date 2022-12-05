@@ -47,6 +47,6 @@ Explanation: III = 3.
 
 // Time & Space Complexity -
 /*
-Time - O(N), because we linearly traverse
+Time - O(N), because we linearly traverse a map
 Space - O(1), no extra space is needed
 */
