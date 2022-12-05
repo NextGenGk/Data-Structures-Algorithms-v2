@@ -19,6 +19,7 @@ public class Roman_to_Integer {
             for (int i = 0; i < s.length(); i++) {
                 if (i < s.length() - 1 && map.get(s.charAt(i)) < map.get(s.charAt(i + 1))) {
                     ans += map.get(s.charAt(i + 1)) - map.get(s.charAt(i));
+                    // IV {0,1}
                     i++;
                 } else {
                     ans += map.get(s.charAt(i));
