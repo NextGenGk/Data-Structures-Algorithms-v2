@@ -45,6 +45,6 @@ that can be formed in lesser reversals.
 
 // Time & Space Complexity -
 /*
-Time - O(N), because we linearly traverse
+Time - O(N), because we linearly traversing
 Space - O(1), no extra space is needed
  */
