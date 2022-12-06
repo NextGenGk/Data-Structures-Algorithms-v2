@@ -57,6 +57,6 @@ then increment i by one & decrement n by one return false
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), where N is traversing length of the string
+Space - O(1), no extra space is needed
 */
