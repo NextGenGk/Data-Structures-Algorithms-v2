@@ -44,6 +44,6 @@ Output: "fl"
 
 // Time & Space Complexity -
 /*
-Time - O(N*log*N), because we using sorting (uses QuickSort Algorithm)
+Time - O(N*log*N), because we using sorting (it uses QuickSort Algorithm)
 Space - O(1), no extra space is needed
 */
