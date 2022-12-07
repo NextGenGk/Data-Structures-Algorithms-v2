@@ -21,8 +21,7 @@ class Solution {
         int n = b.length() - 1;
         // Looping through half of the string element
         for(int i=0; i<b.length()/2; i++) {
-            // and check, if character at index of i is
-            // not equal to last element,
+            // and check, if character at index of i is not equal to last element,
             // then increment i by one & decrement n by one
             // return false
             if(b.charAt(i) != b.charAt(n-i)) {
