@@ -57,6 +57,6 @@ Output: true
 
 // Time & Space Complexity -
 /*
-Time - O(N*M), where N is row size and M is the column size.
+Time - O(N*M), where N is row size and M is the column size
 Space - O(1), no extra space is needed
 */
