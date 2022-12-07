@@ -20,7 +20,7 @@ Input:
 S = aabb
 Output:  ab
 Explanation: 'a' at 2nd position is appearing 2nd time consecutively.
-Similiar explanation for b at 4th position.
+Similar explanation for b at 4th position.
 */
 
 // Algorithm -
