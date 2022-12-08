@@ -22,7 +22,7 @@ public class Valid_Parentheses {
                 if (c == ']' && stack.peek() != '[') return false;
 
                 // If left parentheses & right parentheses same,
-                // then simply pop the top element
+                // then simply pop the top most element
                 stack.pop();
             }
         }
