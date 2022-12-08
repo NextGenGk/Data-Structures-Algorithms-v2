@@ -8,11 +8,11 @@ public class Valid_Parentheses {
         Stack<Character> stack = new Stack<>();
         // Loop for each character of the string
         for (char c : s.toCharArray()) {
-            // If left symbol is encountered
+            // If left symbol is encountered,
+            // then put it into the stack
             if (c == '(' || c == '{' || c == '[') {
                 stack.push(c);
-            }
-            else {
+            } else {
                 // If none of the valid symbols is encountered
                 if (stack.isEmpty()) return false;
                 // If right symbol is encountered & stack's top element is left symbol,
