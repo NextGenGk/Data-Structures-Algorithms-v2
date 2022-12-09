@@ -1,37 +1,40 @@
 package Strings;
 
-class Solution {
-    // Is Palindrome Function
-    public boolean isPalindrome(String s) {
-        // Convert string to lowerCase
-        s = s.toLowerCase();
-        // Create a StringBuilder object
-        StringBuilder b = new StringBuilder();
+public class Valid_Palindrome {
 
-        // Looping through string character length
-        for (int i = 0; i < s.length(); i++) {
-            // Check, if character is digits or character is letter
-            // if yes, then append this character to b
-            if (Character.isDigit(s.charAt(i)) || Character.isLetter(s.charAt(i))) {
-                b.append(s.charAt(i));
-            }
-        }
+    class Solution {
+        // Is Palindrome Function
+        public boolean isPalindrome(String s) {
+            // Convert string to lowerCase
+            s = s.toLowerCase();
+            // Create a StringBuilder object
+            StringBuilder b = new StringBuilder();
 
-        // Store last value in n variable
-        int n = b.length() - 1;
-        // Looping through half of the string element
-        for(int i=0; i<b.length()/2; i++) {
-            // and check, if character at index of i is not equal to last element,
-            // then increment i by one & decrement n by one
-            // return false
-            if(b.charAt(i) != b.charAt(n-i)) {
-                i++;
-                n--;
-                return false;
+            // Looping through string character length
+            for (int i = 0; i < s.length(); i++) {
+                // Check, if character is digits or character is letter
+                // if yes, then append this character to b
+                if (Character.isDigit(s.charAt(i)) || Character.isLetter(s.charAt(i))) {
+                    b.append(s.charAt(i));
+                }
             }
+
+            // Store last value in n variable
+            int n = b.length() - 1;
+            // Looping through half of the string element
+            for (int i = 0; i < b.length() / 2; i++) {
+                // and check, if character at index of i is not equal to last element,
+                // then increment i by one & decrement n by one
+                // return false
+                if (b.charAt(i) != b.charAt(n - i)) {
+                    i++;
+                    n--;
+                    return false;
+                }
+            }
+            // If all the string are matching, return true
+            return true;
         }
-        // If all the string are matching, return true
-        return true;
     }
 }
 
