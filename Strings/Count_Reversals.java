@@ -2,7 +2,7 @@ package Strings;
 
 public class Count_Reversals {
 
-    class Sol {
+    class Solution {
         int countRev(String s) {
             if (s.length() % 2 != 0) return -1;
 
