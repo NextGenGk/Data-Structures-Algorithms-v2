@@ -10,9 +10,9 @@ public class Palindromic_Substrings {
             if (s == null || s.length() == 0) return 0;
 
             for (int i = 0; i < s.length(); i++) { // i is the mid point
-                // aaa
+                // ex: aaa
                 extendPalindrome(s, i, i); // odd length;
-                // aaaa
+                // ex: aaaa
                 extendPalindrome(s, i, i + 1); // even length
             }
             return count;
