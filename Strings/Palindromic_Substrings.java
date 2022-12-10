@@ -37,9 +37,7 @@ Explanation: Three palindromic strings: "a", "b", "c".
 */
 
 // Idea -
-/*
-Idea is start from each index and try to extend palindrome for both odd and even length.
-*/
+// Idea is start from each index and try to extend palindrome for both odd and even length.
 
 // Algorithm -
 /*
