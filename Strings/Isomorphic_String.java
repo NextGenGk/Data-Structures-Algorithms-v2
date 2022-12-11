@@ -19,7 +19,6 @@ public class Isomorphic_String {
                         return false;
                     }
                 }
-
                 // if map contains value of p2 means
                 // p2 key is possible, so return false
                 else if (map.containsValue(p2)) {
