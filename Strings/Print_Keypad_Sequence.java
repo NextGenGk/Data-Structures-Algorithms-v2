@@ -42,9 +42,6 @@ public class Print_Keypad_Sequence {
 /*
 Input: "BLAZING"
 Output: 2255529999444664
-Explanation: For obtaining a number, we need to press a number corresponding to that character
-for a number of times equal to the position of the character. For example, for character E,
-press number 3 two times and accordingly.
  */
 
 // Algorithm -
