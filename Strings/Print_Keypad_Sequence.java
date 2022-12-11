@@ -61,6 +61,6 @@ press number 3 two times and accordingly.
 
 // Time & Space Complexity -
 /*
-Time - O(N), For traversing the string
+Time - O(N), For linearly traversing the string
 Space - O(N), For storing the answer.
  */
