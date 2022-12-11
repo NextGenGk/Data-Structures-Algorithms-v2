@@ -33,6 +33,6 @@ Explanation: "35427" is already an odd number.
 
 // Time & Space Complexity -
 /*
-Time - O(N), For linearly traversing the string
+Time - O(N), For linearly traversing the string by once
 Space - O(1), no extra space is needed
 */
