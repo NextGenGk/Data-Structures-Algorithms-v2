@@ -17,12 +17,12 @@ public class Longest_Odd_Number_in_String {
 
 // Output -
 /*
-Ex 1 :
+Example 1 :
 Input: num = "35427"
 Output: "35427"
 Explanation: "35427" is already an odd number.
 
-Ex 2 :
+Example 2 :
 Input: num = "52"
 Output: "5"
 Explanation: The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
