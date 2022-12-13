@@ -45,6 +45,6 @@ that can be formed in lesser reversals.
 
 // Time & Space Complexity -
 /*
-Time - O(N), because linear traversing each character by once
+Time - O(N), because linear traversing, each character by once
 Space - O(1), no extra space is needed
  */
