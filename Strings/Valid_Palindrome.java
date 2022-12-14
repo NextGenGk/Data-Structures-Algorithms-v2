@@ -3,7 +3,6 @@ package Strings;
 public class Valid_Palindrome {
 
     class Solution {
-        // Is Palindrome Function
         public boolean isPalindrome(String s) {
             // Convert string to lowerCase
             s = s.toLowerCase();
