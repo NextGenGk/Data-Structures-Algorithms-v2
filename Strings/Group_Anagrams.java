@@ -47,6 +47,5 @@ Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
 // Time & Space Complexity -
 /*
 Time - O(N * klog(k)) since we are sorting k characters n times in the loop.
-Space - O(1), best case for insert in map is O(1),
-    & worst case is O(N)
+Space - O(1), best case for insert in map is O(1), & worst case is O(N)
 */
