@@ -7,6 +7,7 @@ public class Palindromic_Substrings {
 
         // Count Substring Function
         public int countSubstrings(String s) {
+            // Base Case
             if (s == null || s.length() == 0) return 0;
 
             for (int i = 0; i < s.length(); i++) { // i is the mid point
@@ -18,7 +19,7 @@ public class Palindromic_Substrings {
             return count;
         }
 
-        // ExtendPalindrome Function
+        // Extend Palindrome Function
         private void extendPalindrome(String s, int left, int right) {
             while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
                 count++;
