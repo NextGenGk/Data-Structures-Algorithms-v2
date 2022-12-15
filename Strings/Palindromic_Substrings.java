@@ -50,6 +50,6 @@ Explanation: Three palindromic strings: "a", "b", "c".
 
 // Time & Space Complexity -
 /*
-Time - O(N^2), where N is linearly traversing and other N is n numbers of palindrome
+Time - O(N^2), where N is linearly traversing and the other N is n numbers of palindrome
 Space - O(1), no extra space is needed
 */
