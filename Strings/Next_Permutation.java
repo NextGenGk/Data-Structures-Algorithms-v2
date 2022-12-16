@@ -143,6 +143,6 @@ Step 4: Reverse array from index+1 where the index is found at step 1 till the e
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), because we linearly traverse an array
+Space - O(1), no extra space is needed
 */
