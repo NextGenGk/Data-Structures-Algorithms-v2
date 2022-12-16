@@ -4,7 +4,7 @@ public class Next_Permutation {
 
     class Solution {
         public void nextPermutation(int[] nums) {
-        //1st step --> Find the pivot
+        // 1st step --> Find the pivot
 
         /*iska matlab aisa number jisko tumhe actually swap karna hai basically
 		left lesser value to right larger value. So yaha par pehle hum wo left lesser
@@ -20,7 +20,7 @@ public class Next_Permutation {
         2nd step */
 
 
-        /*2nd step: Find the just larger value than your arr[i] so we can swap
+        /* 2nd step: Find the just larger value than your arr[i] so we can swap
 		both the numbers. Ex: 9 1 5 3 mein 1 and 3 will be swapped because 3 is
 		just immediate larger than our arr[i] */
 
@@ -34,7 +34,7 @@ public class Next_Permutation {
         swap(nums, i, j);
     }
 
-    //Step-4 : Reverse the array after the pivot point
+            // Step-4 : Reverse the array after the pivot point
 
     /*Why see if you look carefully our number after swap becomes 9 3 5 1
 	but according to question we want the next permutation which is just
