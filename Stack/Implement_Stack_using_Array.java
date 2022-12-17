@@ -1,6 +1,6 @@
 package Stack;
 
-// Stack Using Array
+// Implement Stack Using Array
 public class Implement_Stack_using_Array {
     // Initialize array
     int[] arr;
@@ -19,20 +19,6 @@ public class Implement_Stack_using_Array {
         // System.out.println("Stack is Empty");
         // System.out.println("Stack is not Empty");
         return topOfStack == -1;
-    }
-
-    // Main Function
-    public static void main(String[] args) {
-        Implement_Stack_using_Array stack = new Implement_Stack_using_Array(4);
-        stack.isEmpty();
-        stack.isFull();
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        stack.push(40);
-        stack.pop();
-        stack.peek();
-        stack.deleteStack();
     }
 
     // Push() Function
@@ -79,5 +65,19 @@ public class Implement_Stack_using_Array {
     public void deleteStack() {
         arr = null;
         System.out.println("Stack is Deleted Successfully");
+    }
+
+    // Main Function
+    public static void main(String[] args) {
+        Implement_Stack_using_Array stack = new Implement_Stack_using_Array(4);
+        stack.isEmpty();
+        stack.isFull();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        stack.pop();
+        stack.peek();
+        stack.deleteStack();
     }
 }
