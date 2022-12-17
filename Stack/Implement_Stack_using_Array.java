@@ -1,41 +1,38 @@
 package Stack;
 
 // Stack Using Array
-public class StackUsingArray {
+public class Implement_Stack_using_Array {
     // Initialize array
     int[] arr;
     // Initialize topOfStack
     int topOfStack;
 
     // Create Constructor (For initializing size)
-    public StackUsingArray(int size) {
+    public Implement_Stack_using_Array(int size) {
         this.arr = new int[size];
         topOfStack = -1;
         System.out.println("Stack is created with the size of " + size);
     }
 
-    // isEmpty() Function
-    public boolean isEmpty() {
-        if (topOfStack == -1) {
-         // System.out.println("Stack is Empty");
-            return true;
-        }
-        else {
-         // System.out.println("Stack is not Empty");
-            return false;
-        }
+    // Main Function
+    public static void main(String[] args) {
+        Implement_Stack_using_Array stack = new Implement_Stack_using_Array(4);
+        stack.isEmpty();
+        stack.isFull();
+        stack.push(10);
+        stack.push(20);
+        stack.push(30);
+        stack.push(40);
+        stack.pop();
+        stack.peek();
+        stack.deleteStack();
     }
 
-    // isFull() Function
-    public boolean isFull() {
-        if (topOfStack == arr.length - 1) {
-         // System.out.println("Stack is Full");
-            return true;
-        }
-        else {
-         // System.out.println("Stack is not Full");
-            return false;
-        }
+    // isEmpty() Function
+    public boolean isEmpty() {
+        // System.out.println("Stack is Empty");
+        // System.out.println("Stack is not Empty");
+        return topOfStack == -1;
     }
 
     // Push() Function
@@ -77,17 +74,10 @@ public class StackUsingArray {
         System.out.println("Stack is deleted successfully");
     }
 
-    // Main Function
-    public static void main(String[] args) {
-        StackUsingArray stack = new StackUsingArray(4);
-        stack.isEmpty();
-        stack.isFull();
-        stack.push(10);
-        stack.push(20);
-        stack.push(30);
-        stack.push(40);
-        stack.pop();
-        stack.peek();
-        stack.deleteStack();
+    // isFull() Function
+    public boolean isFull() {
+        // System.out.println("Stack is Full");
+        // System.out.println("Stack is not Full");
+        return topOfStack == arr.length - 1;
     }
 }
