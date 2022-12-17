@@ -14,6 +14,13 @@ public class Implement_Stack_using_Array {
         System.out.println("Stack is created with the size of " + size);
     }
 
+    // isEmpty() Function
+    public boolean isEmpty() {
+        // System.out.println("Stack is Empty");
+        // System.out.println("Stack is not Empty");
+        return topOfStack == -1;
+    }
+
     // Main Function
     public static void main(String[] args) {
         Implement_Stack_using_Array stack = new Implement_Stack_using_Array(4);
@@ -28,13 +35,6 @@ public class Implement_Stack_using_Array {
         stack.deleteStack();
     }
 
-    // isEmpty() Function
-    public boolean isEmpty() {
-        // System.out.println("Stack is Empty");
-        // System.out.println("Stack is not Empty");
-        return topOfStack == -1;
-    }
-
     // Push() Function
     public void push(int value) {
         if (isFull()) {
@@ -43,35 +43,29 @@ public class Implement_Stack_using_Array {
         else {
             arr[topOfStack + 1] = value;
             topOfStack++;
-            System.out.println("Value " + value + " inserted successfully");
+            System.out.println("Value " + value + " Inserted Successfully");
         }
     }
 
     // Pop() Function
     public void pop() {
         if (isEmpty()) {
-            System.out.println("The stack is Empty");
+            System.out.println("The Stack is Empty");
         } else {
             int topStack = arr[topOfStack];
             topOfStack--;
-            System.out.println("Removed " + topStack + " successfully");
+            System.out.println("Removed " + topStack + " Successfully");
         }
     }
 
     // Peek() Function
     public void peek() {
         if (isEmpty()) {
-            System.out.println("Stack is empty");
+            System.out.println("Stack is Empty");
         }
         else {
-            System.out.println("Top stack value is " + arr[topOfStack]);
+            System.out.println("Top Stack value is " + arr[topOfStack]);
         }
-    }
-
-    // Delete Stack Function
-    public void deleteStack() {
-        arr = null;
-        System.out.println("Stack is deleted successfully");
     }
 
     // isFull() Function
@@ -79,5 +73,11 @@ public class Implement_Stack_using_Array {
         // System.out.println("Stack is Full");
         // System.out.println("Stack is not Full");
         return topOfStack == arr.length - 1;
+    }
+
+    // Delete Stack Function
+    public void deleteStack() {
+        arr = null;
+        System.out.println("Stack is Deleted Successfully");
     }
 }
