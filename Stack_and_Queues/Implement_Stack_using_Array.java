@@ -1,4 +1,4 @@
-package Stack;
+package Stack_and_Queues;
 
 // Implement Stack Using Array
 public class Implement_Stack_using_Array {
