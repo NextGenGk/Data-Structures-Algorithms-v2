@@ -28,7 +28,7 @@ public class Print_All_Subsequences_of_String {
     // public static List<String> list = new ArrayList<String>();
     public static void main(String[] args) {
         String s = "abc";
-        findSubsequences(s, ""); // Calling a function
+        findSubsequences(s, ""); // Calling findSubsequences function
         System.out.println(list);
     }
 }
