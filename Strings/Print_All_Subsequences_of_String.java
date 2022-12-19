@@ -15,7 +15,7 @@ public class Print_All_Subsequences_of_String {
             return;
         }
 
-        // We add adding 1st character in string
+        // We adding 1st character in string
         findSubsequences(s.substring(1), ans + s.charAt(0));
 
         // Not adding first character of the string because the concept of subsequence either
