@@ -32,7 +32,7 @@ public class Implement_Stack_using_Single_Queue {
 
         q1.add(x);
 
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < size - 1; i++) {
             q1.add(q1.remove());
         }
     }
