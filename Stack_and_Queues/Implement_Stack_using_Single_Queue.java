@@ -39,7 +39,7 @@ public class Implement_Stack_using_Single_Queue {
 
         // Pop all the previous elements and put them after
         // current element
-        for (int i = 0; i < size - 1; i++) {
+        for (int i = 1; i < size; i++) {
             q1.add(q1.remove());
         }
     }
