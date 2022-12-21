@@ -80,6 +80,17 @@ current size: 1
  */
 
 // Algorithm -
+/*
+The idea is to keep newly entered element at the front of ‘q1’ so that pop operation dequeues from ‘q1’. ‘q2’ is used to put every new element in front of ‘q1’.
+
+Follow the below steps to implement the push(s, x) operation:
+Enqueue x to q2.
+One by one dequeue everything from q1 and enqueue to q2.
+Swap the queues of q1 and q2.
+Follow the below steps to implement the pop(s) operation:
+Dequeue an item from q1 and return it.
+ */
+
 /* Steps -
 push() operation -
 push(x)
@@ -89,7 +100,7 @@ push(x)
 
 pop() operation -
 pop()
-1. Remove the top element of q1
+1. Remove the top element of q1, q1.pop (Queue - FIFO)
  */
 
 // Time & Space Complexity -
@@ -97,7 +108,5 @@ pop()
 Time -
 Push operation - O(N), As all the elements need to be popped out from the Queue (q1) and push them back to Queue (q2).
 Pop operation - O(1), As we need to remove the front element from the Queue.
-
-Space -
-O(N), As we use two queues for the implementation of a Stack.
+Space - O(N), As we use two queues for the implementation of a Stack.
  */
