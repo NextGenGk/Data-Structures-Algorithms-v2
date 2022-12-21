@@ -77,6 +77,19 @@ first element.
 4. So, this acts as a Stack and we do this at every step i.e. from the initial element to the second last element,
 and the last element will be the one that we are inserting and since we will be pushing the initial elements after
 pushing the last element, our last element becomes the first element.
+
+/* Steps -
+push() operation -
+push(x)
+1. Add x to q1
+2.  1. Get the previous size of the queue.
+    2. Add the current element (x) to the queue.
+    3. Pop all the elements from the queue and put them back to the queue.
+    4. The size of the queue is now equal to the previous size.
+
+pop() operation -
+pop()
+1. Remove the top element of q1, q1.pop() (Queue - FIFO)
  */
 
 // Time & Space Complexity -
