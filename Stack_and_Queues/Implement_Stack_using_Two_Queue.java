@@ -81,7 +81,8 @@ current size: 1
 
 // Algorithm -
 /*
-The idea is to keep newly entered element at the front of ‘q1’ so that pop operation dequeues from ‘q1’. ‘q2’ is used to put every new element in front of ‘q1’.
+The idea is to keep newly entered element at the front of ‘q1’ so that pop operation dequeues from ‘q1’. ‘q2’
+is used to put every new element in front of ‘q1’.
 
 Follow the below steps to implement the push(s, x) operation:
 Enqueue x to q2.
