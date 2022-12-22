@@ -56,7 +56,7 @@ public class Implement_Stack_using_Two_Queue {
             q1.remove();
         }
 
-        // top() Function
+        // top/peek Function
         static int top() {
             if (q1.isEmpty())
                 return -1;
