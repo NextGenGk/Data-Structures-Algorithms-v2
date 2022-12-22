@@ -85,11 +85,12 @@ The idea is to keep newly entered element at the front of ‘q1’ so that pop o
 is used to put every new element in front of ‘q1’.
 
 Follow the below steps to implement the push(s, x) operation:
-Enqueue x to q2.
-One by one dequeue everything from q1 and enqueue to q2.
-Swap the queues of q1 and q2.
+1. Enqueue x to q2.
+2. One by one dequeue everything from q1 and enqueue to q2.
+3. Swap the queues of q1 and q2.
+
 Follow the below steps to implement the pop(s) operation:
-Dequeue an item from q1 and return it.
+1. Dequeue an item from q1 and return it.
  */
 
 /* Steps -
