@@ -8,10 +8,12 @@ public class Min_Stack {
         Stack<Long> stk = new Stack<Long>();
         Long mini;
 
+        // initialize
         public MinStack() {
             mini = Long.MAX_VALUE;
         }
 
+        // push() operation
         public void push(int val) {
             Long value = (long) val;
             if (stk.isEmpty()) {
@@ -27,6 +29,7 @@ public class Min_Stack {
             }
         }
 
+        // pop() operation
         public void pop() {
             if (stk.isEmpty()) {
                 return;
@@ -39,6 +42,7 @@ public class Min_Stack {
             }
         }
 
+        // top / peek operation
         public int top() {
             Long value = stk.peek();
             if (value < mini) {
@@ -47,6 +51,7 @@ public class Min_Stack {
             return value.intValue();
         }
 
+        // getMin() operation
         public int getMin() {
             return mini.intValue();
         }
