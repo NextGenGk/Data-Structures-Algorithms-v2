@@ -140,6 +140,7 @@ Space - O(N)
         }
     }
 
+    // create a class pair
     class Pair {
         int val;
         int y;
@@ -149,6 +150,7 @@ Space - O(N)
             this.y = y;
         }
     }
+}
 
 // Algorithm -
 /*
@@ -156,11 +158,11 @@ Solution 1: Using pairs to store the value and minimum element till now.
 
 Approach:
 
-The first element in the pair will store the value and the second element will store the minimum element till now.
-
-When the first push operation comes in we will push the value and store it as minimum itself in the pair.
-
-In the second push operation, we will check if the top element’s minimum is less than the new value. If it is then we will push the value with minimum as the previous top’s minimum. To get the getMin element to take the top’s second element.
+1. The first element in the pair will store the value and the second element will store the minimum element till now.
+2. When the first push operation comes in we will push the value and store it as minimum itself in the pair.
+3. In the second push operation, we will check if the top element’s minimum is less than the new value.
+If it is then we will push the value with minimum as the previous top’s minimum. To get the getMin element
+to take the top’s second element.
 */
 
 // Time & Space Complexity -
@@ -177,4 +179,3 @@ Space - O(2*N)
      * int param_3 = obj.top();
      * int param_4 = obj.getMin();
      */
-}
