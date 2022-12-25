@@ -157,7 +157,6 @@ Space - O(N)
 Solution 1: Using pairs to store the value and minimum element till now.
 
 Approach:
-
 1. The first element in the pair will store the value and the second element will store the minimum element till now.
 2. When the first push operation comes in we will push the value and store it as minimum itself in the pair.
 3. In the second push operation, we will check if the top element’s minimum is less than the new value.
