@@ -126,6 +126,7 @@ push(x)
 2. x in s1
 2. s2 -> s1
 
+pop() operation
 pop()
 1. Removing the top element of s1, s1.pop()
  */
