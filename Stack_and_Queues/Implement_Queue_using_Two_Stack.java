@@ -18,7 +18,7 @@ public class Implement_Queue_using_Two_Stack {
             input.push(x);
         }
 
-        // pop() Funcion
+        // pop() Function
         public int pop() {
             in2out();
             return output.pop();
