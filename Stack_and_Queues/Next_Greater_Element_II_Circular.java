@@ -1,7 +1,7 @@
 package Stack_and_Queues;
 import java.util.Stack;
 
-public class Next_Greater_Element_II {
+public class Next_Greater_Element_II_Circular {
 
     class Solution {
         public int[] nextGreaterElements(int[] nums) {
