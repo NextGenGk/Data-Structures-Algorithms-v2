@@ -4,6 +4,55 @@ import java.util.Stack;
 
 public class Next_Greater_Element {
 
+    // Brute Force Method -
+
+    /* prints element and NGE pair for all elements of arr[] of size n */
+    static void printNGE(int[] arr, int n) {
+        int next;
+        for (int i = 0; i < n; i++) {
+            next = -1;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[i] < arr[j]) {
+                    next = arr[j];
+                    break;
+                }
+            }
+            System.out.println(arr[i] + " -- " + next);
+        }
+    }
+
+    // Main Function
+    public static void main(String[] args) {
+        int[] arr = {11, 13, 21, 3};
+        int n = arr.length;
+        printNGE(arr, n);
+    }
+
+// Output -
+/*
+11 --> 13
+13 --> 21
+21 --> -1
+3 --> -1
+ */
+
+// Approach -
+/*
+Follow the steps mentioned below to implement the idea:
+
+1. Traverse the array from index 0 to end.
+2. For each element start another loop from index i+1 to end.
+3. If a greater element is found in the second loop then print it and break the loop, else print -1.
+ */
+
+// Time & Space Complexity -
+/*
+Time - O(N^2)
+Space - O(1)
+*/
+
+// Optimal Solution -
+
     class Solution {
         //Function to find the next greater element for each element of the array.
         public static long[] nextLargerElement(long[] arr, int n) {
