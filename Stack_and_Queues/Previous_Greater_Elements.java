@@ -4,7 +4,7 @@ import java.util.Stack;
 
 // Brute Force Method -
 
-public class Previous_Smaller_Elements {
+public class Previous_Greater_Elements {
     static void prevGreater(int[] arr, int n) {
         // Previous greater for first element never exists,
         // so we print -1.
