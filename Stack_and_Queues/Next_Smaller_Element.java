@@ -88,8 +88,10 @@ Output shows the marks of the weaker student that each roll number helps in orde
 3. We traverse the array from end to start.
 4. We push the element into the stack.
 5. We check if the stack is empty or not. If it is empty, then we push -1 into the array.
-6. If the stack is not empty, then we check if the top element of the stack is greater than or equal to the current element. If it is, then we pop the top element and push the current element into the stack.
-7. If the stack is not empty and the top element is less than the current element, then we push the current element into the stack.
+6. If the stack is not empty, then we check if the top element of the stack is greater than or equal to the current
+element. If it is, then we pop the top element and push the current element into the stack.
+7. If the stack is not empty and the top element is less than the current element, then we push the current element
+into the stack.
 8. We return the array.
  */
 
