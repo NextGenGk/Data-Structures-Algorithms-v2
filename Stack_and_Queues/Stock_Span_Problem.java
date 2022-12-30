@@ -26,7 +26,6 @@ public class Stock_Span_Problem {
  * int param_1 = obj.next(price);
  */
 
-
 // Output -
 /*
 Input
