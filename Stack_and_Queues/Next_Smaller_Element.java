@@ -6,40 +6,6 @@ public class Next_Smaller_Element {
 
 // Brute Force Method -
 
-    public static int[] help_classmate(int[] arr, int n) {
-        int[] nse = new int[n];
-        Stack<Integer> stk = new Stack<Integer>();
-
-        for (int i = n - 1; i >= 0; i--) {
-            while (!stk.isEmpty() && stk.peek() >= arr[i]) {
-                stk.pop();
-            }
-
-            if (stk.isEmpty()) {
-                nse[i] = -1;
-            } else {
-                nse[i] = stk.peek();
-            }
-            stk.push(arr[i]);
-        }
-        return nse;
-    }
-
-// Approach -
-/*
-Use two loops: The outer loop picks all the elements one by one. The inner loop looks for the first smaller element
-for the element picked by outer loop. If a smaller element is found then that element is printed as next, otherwise,
--1 is printed.
- */
-
-// Time & Space Complexity -
-/*
-Time - O(N^2)
-Space - O(1)
-*/
-
-// Optimal Solution -
-
     class Solution {
         static void printNSE(int[] arr, int n) {
             int next, i, j;
@@ -61,6 +27,40 @@ Space - O(1)
             int n = arr.length;
             printNSE(arr, n);
         }
+    }
+
+// Approach -
+/*
+Use two loops: The outer loop picks all the elements one by one. The inner loop looks for the first smaller element
+for the element picked by outer loop. If a smaller element is found then that element is printed as next, otherwise,
+-1 is printed.
+ */
+
+// Time & Space Complexity -
+/*
+Time - O(N^2)
+Space - O(1)
+*/
+
+// Optimal Solution -
+
+    public static int[] help_classmate(int[] arr, int n) {
+        int[] nse = new int[n];
+        Stack<Integer> stk = new Stack<Integer>();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!stk.isEmpty() && stk.peek() >= arr[i]) {
+                stk.pop();
+            }
+
+            if (stk.isEmpty()) {
+                nse[i] = -1;
+            } else {
+                nse[i] = stk.peek();
+            }
+            stk.push(arr[i]);
+        }
+        return nse;
     }
 }
 
