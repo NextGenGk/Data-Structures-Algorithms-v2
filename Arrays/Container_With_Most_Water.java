@@ -33,7 +33,8 @@ public class Container_With_Most_Water {
 /*
 Input: height = [1,8,6,2,5,4,8,3,7]
 Output: 49
-Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water
+(blue section) the container can contain is 49.
 */
 
 // Algorithm:
@@ -47,6 +48,6 @@ Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,
 
 // Time & Space Complexity -
 /*
-Time - O(n)
+Time - O(N)
 Space - O(1)
  */
