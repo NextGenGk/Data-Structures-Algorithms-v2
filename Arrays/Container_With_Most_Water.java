@@ -24,7 +24,7 @@ public class Container_With_Most_Water {
                 right--;
             }
         }
-        // finally return maximum area
+        // Finally, return maximum area
         return area;
     }
 }
@@ -48,6 +48,6 @@ Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,
 
 // Time & Space Complexity -
 /*
-Time - O(N)
+Time - O(N), where N is linearly traversing an array
 Space - O(1)
  */
