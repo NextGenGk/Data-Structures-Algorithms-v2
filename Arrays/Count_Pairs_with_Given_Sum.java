@@ -40,7 +40,9 @@ and arr[1] + arr[3] = 5 + 1 = 6.
 // Algorithm -
 /*
 1. We first initialize a hashmap to store the frequency of each element in the array.
-2. Then we iterate through the array and check if the element is less than k. If it is, we check if the difference between the element and k is present in the hashmap. If it is, we increment the count by the frequency of the difference in the hashmap.
+2. Then we iterate through the array and check if the element is less than k. If it is, we check if the difference
+ between the element and k is present in the hashmap. If it is, we increment the count by the frequency of the
+ difference in the hashmap.
 3. If the difference is not present in the hashmap, we add it to the hashmap with a frequency of 1.
 4. Finally, we return the count.
 */
