@@ -51,6 +51,18 @@ Explanation: The above is a histogram where width of each bar is 1.
 The largest rectangle is shown in the red area, which has an area = 10 units.
  */
 
+// Algorithm -
+/*
+1. We first initialize a stack.
+2. We then iterate through the array and for each element, we keep popping elements from the stack while the
+ stack is not empty and the top of the stack is greater than or equal to the current element.
+3. If the stack becomes empty, then the current element is the left-most element.
+4. If the stack does not become empty, then the current element is the right-most element.
+5. We then push the current element to the stack.
+6. We then repeat steps 2-5 for all the elements in the array.
+7. Finally, we calculate the maximum area by iterating through the array and calculating the area for each element.
+ */
+
 // Time & Space Complexity -
 /*
 Time - O(N)
