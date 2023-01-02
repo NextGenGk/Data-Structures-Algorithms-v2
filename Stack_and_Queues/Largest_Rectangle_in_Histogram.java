@@ -53,6 +53,6 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 
 // Time & Space Complexity -
 /*
-Time - O( N )
+Time - O(N)
 Space - O(3N) where 3 is for the stack, left small array and a right small array
  */
