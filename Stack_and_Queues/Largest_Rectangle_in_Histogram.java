@@ -10,35 +10,42 @@ public class Largest_Rectangle_in_Histogram {
             Stack<Integer> st = new Stack<>();
             int[] leftSmall = new int[n];
             int[] rightSmall = new int[n];
+            // Previous Smaller Element
             for (int i = 0; i < n; i++) {
                 while (!st.isEmpty() && heights[st.peek()] >= heights[i]) {
                     st.pop();
-                }
 
-                if (st.isEmpty()) leftSmall[i] = 0;
-                else leftSmall[i] = st.peek() + 1;
+                }
+                if (st.isEmpty()) {
+                    leftSmall[i] = 0;
+                } else {
+                    leftSmall[i] = st.peek() + 1;
+                }
                 st.push(i);
             }
 
             // clear the stack to be re-used
             while (!st.isEmpty()) st.pop();
 
+            // Next Smaller Element
             for (int i = n - 1; i >= 0; i--) {
                 while (!st.isEmpty() && heights[st.peek()] >= heights[i]) {
                     st.pop();
                 }
 
-                if (st.isEmpty()) rightSmall[i] = n - 1;
-                else rightSmall[i] = st.peek() - 1;
-
+                if (st.isEmpty()) {
+                    rightSmall[i] = n - 1;
+                } else {
+                    rightSmall[i] = st.peek() - 1;
+                }
                 st.push(i);
             }
 
-            int maxA = 0;
+            int totalUnits = 0;
             for (int i = 0; i < n; i++) {
-                maxA = Math.max(maxA, heights[i] * (rightSmall[i] - leftSmall[i] + 1));
+                totalUnits = Math.max(totalUnits, (rightSmall[i] - leftSmall[i] + 1) * heights[i]);
             }
-            return maxA;
+            return totalUnits;
         }
     }
 }
@@ -50,6 +57,11 @@ Output: 10
 Explanation: The above is a histogram where width of each bar is 1.
 The largest rectangle is shown in the red area, which has an area = 10 units.
  */
+
+// Approach / Intuition -
+/*
+Intuition: The intuition behind the approach is the same as finding the smaller element on both sides but in an optimized way using the concept of the next greater element and the next smaller element.
+*/
 
 // Algorithm -
 /*
