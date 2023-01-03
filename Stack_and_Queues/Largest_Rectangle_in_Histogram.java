@@ -79,5 +79,5 @@ Intuition: The intuition behind the approach is the same as finding the smaller 
 // Time & Space Complexity -
 /*
 Time - O(N)
-Space - O(3N) where 3 is for the stack, left small array and a right small array
+Space - O(3N), where 3 is for the stack, left small array and a right small array
  */
