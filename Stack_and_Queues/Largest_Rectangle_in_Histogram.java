@@ -60,7 +60,8 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 
 // Approach / Intuition -
 /*
-Intuition: The intuition behind the approach is the same as finding the smaller element on both sides but in an optimized way using the concept of the next greater element and the next smaller element.
+Intuition: The intuition behind the approach is the same as finding the smaller element on both sides but in an
+ optimized way using the concept of the next greater element and the next smaller element.
 */
 
 // Algorithm -
