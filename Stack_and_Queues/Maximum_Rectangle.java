@@ -1,5 +1,7 @@
 package Stack_and_Queues;
 
+import java.util.Stack;
+
 public class Maximum_Rectangle {
 
     class Solution {
@@ -66,6 +68,7 @@ public class Maximum_Rectangle {
             return totalUnits;
         }
     }
+}
 
 // Output -
 /*
@@ -86,4 +89,3 @@ Explanation: The maximal rectangle is shown in the above picture.
 Time - O(R x C), Only one traversal of the matrix is required, so the time complexity is O(R X C)
 Space - O(C), Stack is required to store the columns, so space complexity is O(C)
 */
-}
