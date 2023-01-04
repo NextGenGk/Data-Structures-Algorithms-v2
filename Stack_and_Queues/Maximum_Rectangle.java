@@ -77,6 +77,13 @@ Output: 6
 Explanation: The maximal rectangle is shown in the above picture.
 */
 
+// Logic -
+/*
+left smaller
+right smaller
+Largest Rectangle in Histogram
+ */
+
 // Algorithm -
 /*
 1. We first initialize the heights array with all zeros.
