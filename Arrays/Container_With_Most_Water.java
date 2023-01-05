@@ -49,5 +49,5 @@ Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,
 // Time & Space Complexity -
 /*
 Time - O(N), where N is linearly traversing an array
-Space - O(1)
+Space - O(1), no extra space is needed
  */
