@@ -1,5 +1,7 @@
 package Stack_and_Queues;
 
+import java.util.Deque;
+
 public class Sliding_Window_Maximum {
 
     class Solution {
@@ -34,6 +36,7 @@ public class Sliding_Window_Maximum {
             return r;
         }
     }
+}
 
 // Output -
 /*
@@ -60,9 +63,8 @@ Window position                Max
 3. Finally, we iterate through the Deque to get the max sliding window.
 */
 
-// Time & Space Compelxity -
+// Time & Space Complexity -
 /*
 Time - O(N), This is because every element will just two types push and pop; hence time complexity is linear.
 Space - O(K), This is because at any moment, the sum of stack size of both stacks will exactly equal to K, As every time we pop exactly one element and push exactly One.
 */
-}
