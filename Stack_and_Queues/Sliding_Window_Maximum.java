@@ -58,8 +58,10 @@ Window position                Max
 /*
 1. We maintain a Deque of size k.
 2. We iterate through the array and for each element:
-    - If the Deque is not empty and the element at the front of the Deque is smaller than the current element, we remove the element at the front.
-    - We also remove any elements in the Deque that are outside the sliding window (i.e. the last element in the Deque is smaller than the current element).
+    - If the Deque is not empty and the element at the front of the Deque is smaller than the current element,
+     we remove the element at the front.
+    - We also remove any elements in the Deque that are outside the sliding window
+     (i.e. the last element in the Deque is smaller than the current element).
     - We then add the current element to the Deque.
 3. Finally, we iterate through the Deque to get the max sliding window.
 */
