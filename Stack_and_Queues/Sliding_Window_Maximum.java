@@ -69,5 +69,6 @@ Window position                Max
 // Time & Space Complexity -
 /*
 Time - O(N), This is because every element will just two types push and pop; hence time complexity is linear.
-Space - O(K), This is because at any moment, the sum of stack size of both stacks will exactly equal to K, As every time we pop exactly one element and push exactly One.
+Space - O(K), This is because at any moment, the sum of stack size of both stacks will exactly equal to K,
+ As every time we pop exactly one element and push exactly One.
 */
