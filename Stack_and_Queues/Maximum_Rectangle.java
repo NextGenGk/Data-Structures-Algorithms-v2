@@ -87,7 +87,8 @@ Largest Rectangle in Histogram
 // Algorithm -
 /*
 1. We first initialize the heights array with all zeros.
-2. We then iterate through the matrix and for each cell with value=1, we look upward (north), the number of continuous '1' is the height of cell.
+2. We then iterate through the matrix and for each cell with value=1, we look upward (north), the number of continuous
+ '1' is the height of cell.
 3. We then calculate the area of the rectangle with the largest area.
 */
 
