@@ -30,7 +30,8 @@ Explanation: F(2) = F(1) + F(0) = 1 + 0 = 1.
 
 // Algorithm -
 /*
-In this method by storing the previous two numbers only because that is all we need to get the next Fibonacci number in series.
+In this method by storing the previous two numbers only because that is all we need to get the next Fibonacci
+number in series.
 */
 
 // Output -
@@ -51,6 +52,6 @@ public int fibonacciRecursive(int n) {
 
 // Output -
 /*
-Time - O(N)
-Space - O(N)
+Time - O(N), because of linearly traversing
+Space - O(N), because of recursive call stack in memory
 */
