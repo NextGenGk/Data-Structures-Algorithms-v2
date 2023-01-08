@@ -47,6 +47,7 @@ public class Remove_K_Digits {
             return sb.toString();
         }
     }
+}
 
 // Output -
 /* Example 1:
