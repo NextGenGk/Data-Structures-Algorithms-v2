@@ -60,5 +60,5 @@ so start swapping arr[i] and arr[j] and keep j fixed and i moving towards j.  Re
 // Time & Space Complexity -
 /*
 Time - O(N), as we need to iterate through all the elements. Where n is the number of elements in the array.
-Space - O(1), as we are using constant space.
+Space - O(1), no extra space is needed
  */
