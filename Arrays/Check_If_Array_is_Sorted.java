@@ -24,6 +24,6 @@ Explanation: The given array is sorted.
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), where N is linearly traverse an array
+Space - O(1), no extra space is needed
  */
