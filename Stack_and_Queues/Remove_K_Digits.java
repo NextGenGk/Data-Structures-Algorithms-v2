@@ -83,5 +83,5 @@ Explanation: Remove all the digits from the number and it is left with nothing w
 // Time & Space Complexity -
 /*
 Time - O(N)
-Space - O(N)
+Space - O(N), because of using stack
 */
