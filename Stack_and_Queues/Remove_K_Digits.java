@@ -19,7 +19,7 @@ public class Remove_K_Digits {
 
             while (i < len) {
                 // whenever meet a digit which is less than the previous digit, discard the previous one
-                // Ex - "1234567890" Output - "0" (while)
+                // Ex - "1234567890" Output - "0" (using while)
                 while (!stk.isEmpty() && stk.peek() > num.charAt(i) && k > 0) {
                     stk.pop();
                     k--;
