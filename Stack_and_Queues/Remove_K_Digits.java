@@ -13,6 +13,7 @@ public class Remove_K_Digits {
                 return "0";
             }
 
+            // create a stack
             Stack<Character> stk = new Stack<>();
             int i = 0;
 
