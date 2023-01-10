@@ -105,7 +105,7 @@ We will just return the value of min.
 // Time & Space Complexity -
 /*
 Time - O(1)
-Space - O(N)
+Space - O(N), because of using stack data structure
 */
 
 // Brute Force Approach
