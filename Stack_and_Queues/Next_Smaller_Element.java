@@ -39,7 +39,7 @@ for the element picked by outer loop. If a smaller element is found then that el
 // Time & Space Complexity -
 /*
 Time - O(N^2)
-Space - O(1)
+Space - O(1), no extra space is needed
 */
 
 // Optimal Solution -
