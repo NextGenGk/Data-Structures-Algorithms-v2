@@ -112,7 +112,6 @@ Space - O(N), because of using stack data structure
 
     class MinStack1 {
         Stack<Pair> stk;
-
         public MinStack1() {
             stk = new Stack<Pair>();
         }
