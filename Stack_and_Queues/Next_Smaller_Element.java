@@ -47,10 +47,12 @@ Space - O(1), no extra space is needed
     public static int[] help_classmate(int[] arr, int n) {
         int[] nse = new int[n];
         Stack<Integer> stk = new Stack<Integer>();
+
         for (int i = n - 1; i >= 0; i--) {
             while (!stk.isEmpty() && stk.peek() >= arr[i]) {
                 stk.pop();
             }
+
             if (stk.isEmpty()) {
                 nse[i] = -1;
             } else {
