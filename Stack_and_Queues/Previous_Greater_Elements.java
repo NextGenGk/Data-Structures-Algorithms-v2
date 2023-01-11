@@ -22,7 +22,6 @@ public class Previous_Greater_Elements {
                     break;
                 }
             }
-
             // If all elements on left are smaller.
             if (j == -1)
                 System.out.print("-1, ");
