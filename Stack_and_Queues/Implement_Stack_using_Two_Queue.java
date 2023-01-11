@@ -34,14 +34,12 @@ public class Implement_Stack_using_Two_Queue {
         static void push(int x) {
             // Push x first in empty q2
             q2.add(x);
-
             // Push all the remaining
             // elements in q1 to q2.
             while (!q1.isEmpty()) {
                 q2.add(q1.peek());
                 q1.remove();
             }
-
             // swap the names of two queues
             Queue<Integer> q = q1;
             q1 = q2;
