@@ -61,6 +61,7 @@ public class Maximum_Rectangle {
                 st.push(i);
             }
 
+            // find total units
             int totalUnits = 0;
             for (int i = 0; i < n; i++) {
                 totalUnits = Math.max(totalUnits, (rightSmall[i] - leftSmall[i] + 1) * heights[i]);
