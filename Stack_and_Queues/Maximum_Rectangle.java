@@ -12,6 +12,7 @@ public class Maximum_Rectangle {
             // we look upward (north), the number of continuous '1' is the height of cell
             int[] heights = new int[matrix[0].length];
             int maxArea = -1;
+
             for (int i = 0; i < matrix.length; i++) {
                 for (int j = 0; j < matrix[0].length; j++) {
                     if (matrix[i][j] == '0') {
