@@ -115,6 +115,7 @@ Space - O(N), because of using stack data structure
         public MinStack1() {
             stk = new Stack<Pair>();
         }
+
         public void push(int val) {
             int min;
             if (stk.isEmpty()) {
