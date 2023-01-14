@@ -7,7 +7,8 @@ public class Maximum_Rectangle {
     class Solution {
         public int maximalRectangle(char[][] matrix) {
             if (matrix.length == 0) return 0;
-            // for each cell with value=1,
+
+            // for each cell with value = 1,
             // we look upward (north), the number of continuous '1' is the height of cell
             int[] heights = new int[matrix[0].length];
             int maxArea = -1;
