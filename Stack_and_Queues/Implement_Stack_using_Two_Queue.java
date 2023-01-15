@@ -34,6 +34,7 @@ public class Implement_Stack_using_Two_Queue {
         static void push(int x) {
             // Push x first in empty q2
             q2.add(x);
+
             // Push all the remaining
             // elements in q1 to q2.
             while (!q1.isEmpty()) {
@@ -54,7 +55,7 @@ public class Implement_Stack_using_Two_Queue {
             q1.remove();
         }
 
-        // top/peek Function
+        // top() / peek() Function
         static int top() {
             if (q1.isEmpty())
                 return -1;
