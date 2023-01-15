@@ -53,7 +53,7 @@ public class Implement_Stack_using_Single_Queue {
         q1.remove();
     }
 
-    // top() Function
+    // top() / peek() Function
     int top() {
         if (q1.isEmpty()) {
             return -1;
