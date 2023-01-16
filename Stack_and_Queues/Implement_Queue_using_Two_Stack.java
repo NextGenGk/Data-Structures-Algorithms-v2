@@ -4,10 +4,12 @@ import java.util.Stack;
 
 public class Implement_Queue_using_Two_Stack {
 
+    // Queue Class
     class MyQueue {
         Stack<Integer> input;
         Stack<Integer> output;
 
+        // Constructor
         public MyQueue() {
             input = new Stack<>();
             output = new Stack<>();
