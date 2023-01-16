@@ -4,9 +4,12 @@ import java.util.Stack;
 
 public class Stock_Span_Problem {
 
+    // StockSpanner Class
     class StockSpanner {
+        // Create stack
         Stack<int[]> stk;
 
+        // Initialize
         public StockSpanner() {
             stk = new Stack<int[]>();
         }
