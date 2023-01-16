@@ -3,7 +3,7 @@ package Stack_and_Queues;
 public class Trapping_Rainwater {
     // Trapping Rainwater Function
     public int trap(int[] height) {
-        // Store length of height in variable
+        // Store length of height in a variable
         int n = height.length;
 
         // Left aux array (& initialize with length of the array)
