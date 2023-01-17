@@ -45,7 +45,7 @@ public class Convert_Binary_Number_in_a_List_to_Integer {
                 prev = cur;
                 cur = temp;
             }
-            // Finally return prev element
+            // Finally, return prev element
             return prev;
         }
 
@@ -79,6 +79,6 @@ Explanation: (101) in base 2 = (5) in base 10
 
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(1)
+Time - O(N)
+Space - O(1), no extra space is needed
 */
