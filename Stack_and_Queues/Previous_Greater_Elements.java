@@ -88,7 +88,8 @@ Space - O(N)
 1. We first push the first element to the stack.
 2. We then print -1 as the previous greater for the first element.
 3. We then traverse the array from the second element.
-4. We keep popping elements from the stack while the stack is not empty and the top of the stack is smaller than the current element.
+4. We keep popping elements from the stack while the stack is not empty and the top of the stack is smaller
+than the current element.
 5. If the stack becomes empty, then the current element is the smallest element in the remaining elements.
 6. If the stack is not empty, then the top of the stack is the previous greater for the current element.
 7. We then push the current element to the stack.
@@ -99,6 +100,6 @@ Space - O(N)
 /*
 Time - O(N). It seems more than O(N) at first look. If we take a closer look, we can observe that every element of
 array is added and removed from stack at most once. So there are total 2n operations at most.
-Assuming that a stack operation takes O(1) time, we can say that the time complexity is O(n).
+Assuming that a stack operation takes O(1) time, we can say that the time complexity is O(N).
 Space - O(N) in worst case when all elements are sorted in decreasing order.
  */
