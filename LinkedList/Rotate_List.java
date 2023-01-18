@@ -55,6 +55,6 @@ Output: [4,5,1,2,3]
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), where N is for linearly traversing
+Space - O(1), no extra space is needed
 */
