@@ -51,6 +51,6 @@ calling your function.
 
 // Time & Space Complexity -
 /*
-Time - O(1)
+Time - O(1), because, we copy next node value in current node & delete the next node
 Space - O(1), no extra space is needed
 */
