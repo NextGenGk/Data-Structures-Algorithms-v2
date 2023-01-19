@@ -52,5 +52,5 @@ calling your function.
 // Time & Space Complexity -
 /*
 Time - O(1)
-Space - O(1)
+Space - O(1), no extra space is needed
 */
