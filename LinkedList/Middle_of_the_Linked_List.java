@@ -70,6 +70,6 @@ Explanation: Since the list has two middle nodes with values 3 and 4, we return 
 
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(1)
+Time - O(N)
+Space - O(1), no extra space is needed
 */
