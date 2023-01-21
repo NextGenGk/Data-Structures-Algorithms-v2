@@ -125,7 +125,6 @@ public class SingleLinkedList {
             return false;
         }
 
-
         // Deletion in Singly Linked List
         public void deleteNode(int location) {
             if (head == null) {
