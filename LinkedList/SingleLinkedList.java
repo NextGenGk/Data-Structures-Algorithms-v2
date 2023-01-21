@@ -2,6 +2,7 @@ package LinkedList;
 
 public class SingleLinkedList {
 
+    // Main Function
     public static void main(String[] args) {
         SinglyLinkedList sLL = new SinglyLinkedList();
 
