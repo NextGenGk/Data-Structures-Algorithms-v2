@@ -1,4 +1,4 @@
-package Stack_and_Queues;
+package Stack_and_Queues.Queue_Implementation;
 
 public class Implement_Queue_using_Array {
     int[] arr;
