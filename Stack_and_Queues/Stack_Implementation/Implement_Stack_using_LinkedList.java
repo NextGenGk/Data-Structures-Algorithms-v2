@@ -1,15 +1,16 @@
 package Stack_and_Queues.Stack_Implementation;
 
-public class Stack {
-    LinkedList.SinglyLinkedList linkedList;
+    class Stack {
+        LinkedList.SinglyLinkedList linkedList;
 
-    // Constructor
-    public Stack() {
-        linkedList = new LinkedList.SinglyLinkedList();
-    }
+        // Constructor
+        public Stack() {
+            linkedList = new LinkedList.SinglyLinkedList();
+            System.out.println("Stack is created successfully");
+        }
 
-    // Main Function
-    public static void main(String[] args) {
+        // Main Function
+        public static void main(String[] args) {
         Stack stack = new Stack();
 //        stack.push(10);
 //        stack.push(20);
