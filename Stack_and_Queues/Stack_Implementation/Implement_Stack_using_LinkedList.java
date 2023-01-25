@@ -3,7 +3,7 @@ package Stack_and_Queues.Stack_Implementation;
     class Stack {
         LinkedList.SinglyLinkedList linkedList;
 
-        // Constructor
+        // Create Stack
         public Stack() {
             linkedList = new LinkedList.SinglyLinkedList();
             System.out.println("Stack is created successfully");
