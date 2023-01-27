@@ -56,8 +56,6 @@ public class Implement_Stack_using_Array {
 
     // isFull() Function
     public boolean isFull() {
-        // System.out.println("Stack is Full");
-        // System.out.println("Stack is not Full");
         return topOfStack == arr.length - 1;
     }
 
