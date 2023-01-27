@@ -25,39 +25,39 @@ public class Implement_Queue_using_Array {
 //        boolean result1 = queue.isFull();
 //        System.out.println(result1);
 
-        // enQueue() Function
+        // EnQueue() Function
 //        queue.enQueue(10);
 //        queue.enQueue(20);
 //        queue.enQueue(30);
 //        queue.enQueue(40);
 
-        // deQueue() Function
+        // DeQueue() Function
 //        int result = queue.deQueue();
 //        System.out.println(result);
 //
 //        int result2 = queue.deQueue();
 //        System.out.println(result2);
 
-        // peek() Function
+        // Peek() Function
 //        int result = queue.peek();
 //        System.out.println(result);
 
-        // deleteQueue() Function
+        // DeleteQueue() Function
 //        queue.deleteQueue();
     }
 
-    // isEmpty() Function
+    // IsEmpty() Function
     public boolean isEmpty() {
         // beginning of Queue 1, 2, 3
         return beginningOfQueue == -1 || beginningOfQueue == arr.length;
     }
 
-    // isFull() Function
+    // IsFull() Function
     public boolean isFull() {
         return topOfQueue == arr.length - 1;
     }
 
-    // enQueue() Function
+    // EnQueue() Function
     public void enQueue(int value) {
         if (isFull()) {
             System.out.println("The Queue is Full");
@@ -73,7 +73,7 @@ public class Implement_Queue_using_Array {
         }
     }
 
-    // deQueue() Function
+    // DeQueue() Function
     public int deQueue() {
         if (isEmpty()) {
             System.out.println("The Queue is Empty");
@@ -89,7 +89,7 @@ public class Implement_Queue_using_Array {
         }
     }
 
-    // peek() Function
+    // Peek() Function
     public int peek() {
         if (isEmpty()) {
             System.out.println("The Queue is Empty");
@@ -99,7 +99,7 @@ public class Implement_Queue_using_Array {
         }
     }
 
-    // deleteQueue() Function
+    // DeleteQueue() Function
     public void deleteQueue() {
         arr = null;
         System.out.println("The Queue is Deleted Successfully");
