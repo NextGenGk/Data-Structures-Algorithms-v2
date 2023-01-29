@@ -77,7 +77,8 @@ public class LRU_Cache {
 // Time & Space Complexity -
 /*
 Time -
-get() - O(1), put() - O(1)
+get() - O(1)
+put() - O(1)
 */
 
 // Algorithm -
