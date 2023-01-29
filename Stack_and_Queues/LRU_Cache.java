@@ -6,9 +6,10 @@ import java.util.Map;
 public class LRU_Cache {
 
     class LRUCache {
-        // Create head and tail Node
-        Node head = new Node(0, 0), tail = new Node(0, 0);
-        // Create map
+        // create head and tail Node
+        Node head = new Node(0, 0);
+        Node tail = new Node(0, 0);
+        // create map
         Map<Integer, Node> map = new HashMap();
         int capacity;
 
