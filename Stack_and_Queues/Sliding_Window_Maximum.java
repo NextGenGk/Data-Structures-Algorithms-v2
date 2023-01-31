@@ -16,6 +16,7 @@ public class Sliding_Window_Maximum {
                 return nums;
             }
 
+            // create deque
             Deque<Integer> dq = new ArrayDeque<>();
 
             // remove numbers out of range k
