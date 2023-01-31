@@ -6,6 +6,7 @@ public class Maximum_Rectangle {
 
     class Solution {
         public int maximalRectangle(char[][] matrix) {
+            // base case
             if (matrix.length == 0) return 0;
 
             // for each cell with value = 1,
