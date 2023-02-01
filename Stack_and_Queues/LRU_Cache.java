@@ -7,12 +7,12 @@ public class LRU_Cache {
 
     class LRUCache {
         // create head and tail Node
+        // & initialize with 0
         Node head = new Node(0, 0);
         Node tail = new Node(0, 0);
         // create map
         Map<Integer, Node> map = new HashMap<>();
         int capacity;
-
 
         // capacity
         public LRUCache(int _capacity) {
