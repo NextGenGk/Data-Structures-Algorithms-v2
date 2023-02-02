@@ -14,7 +14,7 @@ public class LRU_Cache {
         Map<Integer, Node> map = new HashMap<>();
         int capacity;
 
-        // capacity
+        // size of cache
         public LRUCache(int _capacity) {
             capacity = _capacity;
             head.next = tail;
