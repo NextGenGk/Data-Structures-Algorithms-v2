@@ -42,7 +42,7 @@ public class Min_Stack {
             }
         }
 
-        // top / peek operation
+        // peek() operation
         public int top() {
             Long value = stk.peek();
             if (value < mini) {
