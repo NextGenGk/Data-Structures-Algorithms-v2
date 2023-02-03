@@ -144,6 +144,7 @@ Space - O(N), because of using stack data structure
         int val;
         int y;
 
+        // constructor
         public Pair(int val, int y) {
             this.val = val;
             this.y = y;
