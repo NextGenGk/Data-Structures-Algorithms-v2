@@ -32,7 +32,7 @@ public class Min_Stack {
         // pop() operation
         public void pop() {
             if (stk.isEmpty()) {
-                return;
+                // return;
             } else {
                 // rollback to previous minimum
                 Long value = stk.pop();
