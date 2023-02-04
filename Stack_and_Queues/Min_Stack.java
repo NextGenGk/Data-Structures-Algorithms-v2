@@ -5,6 +5,7 @@ import java.util.Stack;
 public class Min_Stack {
 
     class MinStack {
+        // Create stack
         Stack<Long> stk = new Stack<Long>();
         Long mini;
 
