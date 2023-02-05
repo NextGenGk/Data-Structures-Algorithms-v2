@@ -36,6 +36,6 @@ So we can XOR all bits together to find the unique number.
 
 // Time & Space Complexity -
 /*
-Time - O(N), because of linear traversing
+Time - O(N), where N is for linear traversing
 Space - O(1), no extra space is needed
 */
