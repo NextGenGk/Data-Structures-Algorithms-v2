@@ -57,6 +57,6 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 // Time & Space Complexity -
 /*
-Time - O(N)
+Time - O(N), where N is for linear traversing
 Space - O(N) because using hashMap
  */
