@@ -5,7 +5,6 @@ import java.util.HashMap;
 public class Count_Pairs_with_Given_Sum {
 
     class Solution {
-
         int getPairsCount(int[] arr, int n, int k) {
             int count = 0;
             HashMap<Integer, Integer> map = new HashMap<>();
