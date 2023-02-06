@@ -28,6 +28,6 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 // Time & Space Complexity -
 /*
-Time - O(n)
-Space - O(1)
+Time - O(N), where N for linearly traversing
+Space - O(1), no extra space is needed
 */
