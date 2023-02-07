@@ -1,5 +1,8 @@
 package Stack_and_Queues;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LFU_Cache {
 
     class LFUCache {
@@ -163,6 +166,7 @@ public class LFU_Cache {
 
         }
     }
+}
 
 /**
  * Your LFUCache object will be instantiated and called as such:
@@ -170,4 +174,3 @@ public class LFU_Cache {
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-}
