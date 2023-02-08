@@ -22,6 +22,7 @@ public class LFU_Cache {
          * @param frequencyMap: a hash map that has key to linked list mapping, which used for storing all
          * double linked list by their frequencies
          * */
+        // size function
         public LFUCache(int capacity) {
             this.capacity = capacity;
             this.curSize = 0;
@@ -34,6 +35,7 @@ public class LFU_Cache {
         /**
          * get node value by key, and then update node frequency as well as relocate that node
          **/
+        // get function
         public int get(int key) {
             DLLNode curNode = cache.get(key);
             if (curNode == null) {
@@ -51,6 +53,7 @@ public class LFU_Cache {
          * in minimum frequency list, then add new node
          * - sub condition 2: if LFU cache has enough space, add new node directly
          **/
+        // put function
         public void put(int key, int value) {
             // corner case: check cache capacity initialization
             if (capacity == 0) {
@@ -82,6 +85,7 @@ public class LFU_Cache {
             }
         }
 
+        // updateNode function
         public void updateNode(DLLNode curNode) {
             int curFreq = curNode.frequency;
             DoubleLinkedList curList = frequencyMap.get(curFreq);
@@ -109,6 +113,7 @@ public class LFU_Cache {
          * @param prev: previous pointer of current node
          * @param next: next pointer of current node
          * */
+        // Doubly Linked List Node
         class DLLNode {
             int key;
             int val;
@@ -116,6 +121,7 @@ public class LFU_Cache {
             DLLNode prev;
             DLLNode next;
 
+            // constructor
             public DLLNode(int key, int val) {
                 this.key = key;
                 this.val = val;
@@ -128,6 +134,7 @@ public class LFU_Cache {
          * @param head: head node of double linked list
          * @param tail: tail node of double linked list
          * */
+        // Doubly Linked List
         class DoubleLinkedList {
             int listSize;
             DLLNode head;
@@ -144,6 +151,7 @@ public class LFU_Cache {
             /**
              * add new node into head of list and increase list size by 1
              **/
+            // addNode function
             public void addNode(DLLNode curNode) {
                 DLLNode nextNode = head.next;
                 curNode.next = nextNode;
@@ -156,6 +164,7 @@ public class LFU_Cache {
             /**
              * remove input node and decrease list size by 1
              **/
+            // removeNode function
             public void removeNode(DLLNode curNode) {
                 DLLNode prevNode = curNode.prev;
                 DLLNode nextNode = curNode.next;
