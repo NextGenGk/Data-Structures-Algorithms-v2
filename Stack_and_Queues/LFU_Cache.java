@@ -6,7 +6,6 @@ import java.util.Map;
 public class LFU_Cache {
 
     class LFUCache {
-
         final int capacity;
         int curSize;
         int minFrequency;
@@ -22,6 +21,7 @@ public class LFU_Cache {
          * @param frequencyMap: a hash map that has key to linked list mapping, which used for storing all
          * double linked list by their frequencies
          * */
+
         // size function
         public LFUCache(int capacity) {
             this.capacity = capacity;
@@ -35,6 +35,7 @@ public class LFU_Cache {
         /**
          * get node value by key, and then update node frequency as well as relocate that node
          **/
+
         // get function
         public int get(int key) {
             DLLNode curNode = cache.get(key);
@@ -53,6 +54,7 @@ public class LFU_Cache {
          * in minimum frequency list, then add new node
          * - sub condition 2: if LFU cache has enough space, add new node directly
          **/
+
         // put function
         public void put(int key, int value) {
             // corner case: check cache capacity initialization
@@ -113,6 +115,7 @@ public class LFU_Cache {
          * @param prev: previous pointer of current node
          * @param next: next pointer of current node
          * */
+
         // Doubly Linked List Node
         class DLLNode {
             int key;
@@ -134,6 +137,7 @@ public class LFU_Cache {
          * @param head: head node of double linked list
          * @param tail: tail node of double linked list
          * */
+
         // Doubly Linked List
         class DoubleLinkedList {
             int listSize;
