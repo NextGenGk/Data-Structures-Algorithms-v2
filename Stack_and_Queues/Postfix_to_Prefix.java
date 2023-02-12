@@ -25,7 +25,7 @@ public class Postfix_to_Prefix {
         Stack<String> stack = new Stack<String>();
 
         // Reading from right to left
-        for (int i = str.length() - 1; i >= 0; i--) {
+        for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
 
             if (isOperator(c)) {
@@ -33,14 +33,14 @@ public class Postfix_to_Prefix {
                 String op2 = stack.pop();
 
                 // Concat the operands and operator
-                String temp = (op1 + c + op2);
+                String temp = (c + op2 + op1);
                 stack.push(temp);
             } else {
                 // To make character to string
                 stack.push(c + "");
             }
         }
-        return stack.peek();
+        return stack.pop();
     }
 
     // Main Function
