@@ -75,6 +75,6 @@ And push the resultant string back to Stack
 
 // Time & Space Complexity -
 /*
-Time - O(N) where N is for linearly traversing ana array
+Time - O(N) where N is the size of the prefix expression
 Space - O(N) because of using stack
  */
