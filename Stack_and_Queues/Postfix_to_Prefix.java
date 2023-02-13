@@ -19,7 +19,7 @@ public class Postfix_to_Prefix {
         return false;
     }
 
-    // Convert prefix to Infix expression
+    // Convert Postfix to Prefix expression
     public static String convert(String str) {
         // Create a stack
         Stack<String> stack = new Stack<String>();
