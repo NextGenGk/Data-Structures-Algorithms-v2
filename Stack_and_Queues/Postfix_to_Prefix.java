@@ -78,6 +78,6 @@ Read the Postfix expression from left to right
 
 // Time & Space Complexity -
 /*
-Time - O(N) where N is for linearly traversing ana array
+Time - O(N) where N is the size of the postfix expression
 Space - O(N) because of using stack
  */
