@@ -2,7 +2,7 @@ package BinarySearch;
 
 public class Find_Peak_Element {
 
-    // Brute Force Approach
+    // Main Approach
     public int findPeakElement(int[] nums) {
         int n = nums.length;
 
@@ -47,7 +47,7 @@ Time - O(log*N), because we applied binary Search
 Space - O(1), no extra space is needed
 */
 
-    // Main Approach
+    // Brute Force Approach
     class Solution {
         public int findPeakElement(int[] nums) {
             int low = 0;
