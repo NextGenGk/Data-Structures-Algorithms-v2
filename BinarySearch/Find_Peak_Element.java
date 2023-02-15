@@ -24,7 +24,6 @@ public class Find_Peak_Element {
         return 0;
     }
 
-
 // Output -
 /*
 Input: nums = [1,2,3,1]
@@ -34,19 +33,19 @@ Explanation: 3 is a peak element and your function should return the index numbe
 
 // Algorithm -
 /*
-1. We start with low = 0 and high = n-1.
-2. We find the mid element.
-3. If the mid element is greater than its next element, then the mid element is the peak.
-4. If the mid element is smaller than its next element, then the mid element is not the peak and
- we can discard all elements on the left of mid, including mid.
-5. We repeat steps 2 and 3 until low <= high.
+1. If the array is empty, return 0.
+2. If the first element is greater than the second element, return 0.
+3. If the last element is greater than the second last element, return n-1.
+4. If the above conditions are not satisfied, then iterate through the array
+and return the index of the element which is greater than its previous and next element.
 */
 
 // Time & Space Complexity -
 /*
-Time - O(log*N), because we applied binary Search
+Time - O(N), where N is for linearly traversing
 Space - O(1), no extra space is needed
 */
+
 
     // Main Approach
     class Solution {
@@ -77,15 +76,16 @@ Explanation: 3 is a peak element and your function should return the index numbe
 
 // Algorithm -
 /*
-1. If the array is empty, return 0.
-2. If the first element is greater than the second element, return 0.
-3. If the last element is greater than the second last element, return n-1.
-4. If the above conditions are not satisfied, then iterate through the array
-and return the index of the element which is greater than its previous and next element.
+1. We start with low = 0 and high = n-1.
+2. We find the mid element.
+3. If the mid element is greater than its next element, then the mid element is the peak.
+4. If the mid element is smaller than its next element, then the mid element is not the peak and
+ we can discard all elements on the left of mid, including mid.
+5. We repeat steps 2 and 3 until low <= high.
 */
 
 // Time & Space Complexity -
 /*
-Time - O(N), where N is for linearly traversing
+Time - O(log*N), because we applied binary Search
 Space - O(1), no extra space is needed
 */
