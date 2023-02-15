@@ -86,6 +86,6 @@ and return the index of the element which is greater than its previous and next 
 
 // Time & Space Complexity -
 /*
-Time - O(N)
-Space - O(1)
+Time - O(N), where N is for linearly traversing
+Space - O(1), no extra space is needed
 */
