@@ -46,6 +46,7 @@ Time - O(N), where N is for linearly traversing
 Space - O(1), no extra space is needed
 */
 
+    
     // Main Approach
     class Solution {
         public int findPeakElement(int[] nums) {
