@@ -47,7 +47,7 @@ Space - O(1), no extra space is needed
 */
 
     
-    // Main Approach
+    // Optimal Approach
     class Solution {
         public int findPeakElement(int[] nums) {
             int low = 0;
@@ -76,7 +76,6 @@ Explanation: 3 is a peak element and your function should return the index numbe
 
 // Algorithm -
 /*
-Same as Binary Search
 1. We start with low = 0 and high = n-1.
 2. We find the mid element.
 3. If the mid element is greater than its next element, then the mid element is the peak.
