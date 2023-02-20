@@ -51,8 +51,8 @@ the single element that occurs once. So we update high to mid-1.
 
 // Time & Space Complexity -
 /*
-Time - O(log*N)
-Space - O(1)
+Time - O(log*N), where log*N is for sorting
+Space - O(1), no extra space is needed
 */
 
 // New Approach
@@ -99,6 +99,6 @@ In order to check for the left half
 
 // Time & Space Complexity -
 /*
-Time - O(log*N)
-Space - O(1)
+Time - O(log*N), where log*N is for sorting
+Space - O(1), no extra space is needed
 */
