@@ -1,4 +1,4 @@
-package BinarySearch;
+package Arrays;
 
 public class Array_is_Sorted_or_Not {
 
