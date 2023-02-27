@@ -9,7 +9,7 @@ class Compute {
                 max = arr[i];
             }
         }
-    return max;
+        return max;
     }
 }
 
