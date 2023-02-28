@@ -94,14 +94,7 @@ lRUCache.get(3);    // return 3
 lRUCache.get(4);    // return 4
  */
 
-// Time & Space Complexity -
-/*
-Time -
-get() - O(1)
-put() - O(1)
-*/
-
-// Algorithm -
+ // Algorithm -
 /*
 1. We create a doubly linked list with a dummy head and tail.
 2. We create a HashMap to store the key-value pairs.
@@ -113,4 +106,11 @@ we insert the key-value pair at the head of the linked list. If the size of the 
 we remove the tail node from the linked list.
 5. We use the remove() method to remove a node from the linked list.
 6. We use the insert() method to insert a node at the head of the linked list.
+*/
+
+// Time & Space Complexity -
+/*
+Time -
+get() - O(1)
+put() - O(1)
 */
