@@ -109,5 +109,5 @@ expression will be abcd^e-fgh*+^*+i-
 // Time & Space Complexity -
 /*
 Time - O(N) where N is for linearly traversing ana array
-Space - O(N) because of using stack
+Space - O(N) because of using stack data structure
  */
