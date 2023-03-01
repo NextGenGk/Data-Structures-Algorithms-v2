@@ -51,7 +51,7 @@ Time - O(N^2)
 Space - O(1)
 */
 
-// Optimal Solution -
+    // Optimal Solution -
 
     class Solution {
         //Function to find the next greater element for each element of the array.
