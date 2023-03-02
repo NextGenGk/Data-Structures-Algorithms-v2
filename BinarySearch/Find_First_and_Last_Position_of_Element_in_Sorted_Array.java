@@ -88,6 +88,6 @@ Output: [3,4]
 
 // Time & Space Complexity -
 /*
-Time - O(log*n)
-Space - O(1);
+Time - O(log*n), because of using sorting
+Space - O(1), no extra space is needed
 */
