@@ -2,7 +2,7 @@ package Arrays;
 
 public class Find_Union_And_Intersection_of_Two_Sorted_Array {
 
-    // Union -
+    // Union Find Method -
 
     /* Function prints Intersection of arr1[] and arr2[]
        m is the number of elements in arr1[]
@@ -44,7 +44,7 @@ public class Find_Union_And_Intersection_of_Two_Sorted_Array {
         }
     }
 
-    // Intersection -
+    // Intersection Find Method -
 
     /* Function prints Intersection of arr1[] and arr2[]
        m is the number of elements in arr1[]
