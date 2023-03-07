@@ -40,7 +40,8 @@ Explanation: III = 3.
 // Algorithm -
 /*
 1. We create a HashMap to store the mapping between the Roman numerals and their corresponding integer values.
-2. We iterate through the string and for each character, we check if the next character is smaller than the current character. If it is, then we add the difference between the two to the answer.
+2. We iterate through the string and for each character, we check if the next character is smaller than the current character.
+If it is, then we add the difference between the two to the answer.
 3. If the next character is not smaller, then we add the value of the current character to the answer.
 4. We return the answer.
 */
