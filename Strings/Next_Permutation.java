@@ -39,7 +39,7 @@ public class Next_Permutation {
     /*Why see if you look carefully our number after swap becomes 9 3 5 1
 	but according to question we want the next permutation which is just
 	immediate greater than the given number right so our resultant final answer
-    should be 9 3 1 5, for that we have to reverse the array after the pivot
+        should be 9 3 1 5, for that we have to reverse the array after the pivot
 	point i.e. reverse from (i+1,arr.length-1) also if you remember our if check
 	is due to what if we provided with the highest number itself so we have to
 	return the smallest permutation i.e. reverse the whole array so our that
