@@ -41,7 +41,7 @@ that can be formed in lesser reversals.
 3. We loop through the string and increment or decrement the open and close variables accordingly.
 4. We calculate the number of reverse braces by taking the ceiling of the number of open braces divided by 2 
 and adding it to the ceiling of the number of close braces divided by 2.
-5. We return the number of reverse braces.
+5. We return the number of reverse curly braces.
  */
 
 // Time & Space Complexity -
