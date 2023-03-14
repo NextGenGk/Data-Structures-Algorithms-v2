@@ -58,7 +58,8 @@ Explanation: The answer is "abc", with the length of 3.
 2. Create a Set
 3. While right is less than string length, then pick 1st character of string
 4. If set.add (char), Find max window length & increment right pointer
-5. Else, while string left char is not equal to char at left, while string left char is not equal to c
+5. Else, while string left char is not equal to char at left, while string left char
+   is not equal to c
 6. Finally, the char remove frm the string & increment left pointer
 7. Finally, return max length window
 */
