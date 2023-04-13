@@ -1,6 +1,6 @@
 package Practice.Patterns;
 
-public class Print_Triangle_IV {
+public class Pattern_5 {
 
     // Pattern Function
     public static void pattern5(int n) {

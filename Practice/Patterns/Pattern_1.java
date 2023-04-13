@@ -1,6 +1,6 @@
 package Practice.Patterns;
 
-public class Print_Square {
+public class Pattern_1 {
 
     // Pattern Function
     public static void pattern1(int n){
