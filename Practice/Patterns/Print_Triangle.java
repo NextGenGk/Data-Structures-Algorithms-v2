@@ -2,6 +2,7 @@ package Practice.Patterns;
 
 public class Print_Triangle {
 
+    // Pattern Function
     public static void pattern1(int n){
         // This is the outer loop which will loop for the rows.
         for (int i=0; i<n; i++) {
@@ -25,3 +26,12 @@ public class Print_Triangle {
         pattern1(i);
     }
 }
+
+// Output -
+/*
+ *
+ * *
+ * * *
+ * * * *
+ * * * * *
+ */

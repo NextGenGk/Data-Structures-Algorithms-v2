@@ -2,6 +2,7 @@ package Practice.Patterns;
 
 public class Pattern_9 {
 
+    // Pattern Function
     public static void pattern9(int n) {
         // Pattern 7
         for (int i=0; i<n; i++) {
@@ -35,8 +36,23 @@ public class Pattern_9 {
         }
     }
 
+    // Main Function
     public static void main(String[] args) {
         int n = 5;
         pattern9(n);
     }
 }
+
+// Output -
+/*
+     *
+    ***
+   *****
+  *******
+ *********
+ *********
+  *******
+   *****
+    ***
+     *
+ */

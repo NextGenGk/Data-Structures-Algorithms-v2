@@ -2,11 +2,10 @@ package Practice.Patterns;
 
 public class Pattern_16 {
 
+    // Pattern Function
     public static void pattern16(int n) {
         // Outer loop for the number of rows.
         for(int i=0;i<n;i++){
-
-
             for(int j=0;j<=i;j++){
 
                 // same char which is defined
@@ -21,8 +20,18 @@ public class Pattern_16 {
         }
     }
 
+    // Main Function
     public static void main(String[] args) {
         int n = 5;
         pattern16(n);
     }
 }
+
+// Output -
+/*
+A
+B B
+C C C
+D D D D
+E E E E E
+ */

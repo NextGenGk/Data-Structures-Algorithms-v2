@@ -2,6 +2,7 @@ package Practice.Patterns;
 
 public class Print_Triangle_IV {
 
+    // Pattern Function
     public static void pattern5(int n) {
         for (int i=1; i<=n; i++) {
             for (int j=1; j<=n-i+1; j++) {
@@ -11,8 +12,18 @@ public class Print_Triangle_IV {
         }
     }
 
+    // Main Function
     public static void main(String[] args) {
-        int i =5;
-        pattern5(i);
+        int n =5;
+        pattern5(n);
     }
 }
+
+// Output -
+/*
+ * * * * *
+ * * * *
+ * * *
+ * *
+ *
+ */

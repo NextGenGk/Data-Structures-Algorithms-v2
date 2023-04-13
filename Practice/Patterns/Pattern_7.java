@@ -2,6 +2,7 @@ package Practice.Patterns;
 
 public class Pattern_7 {
 
+    // Pattern Function
     public static void pattern7(int n) {
         for (int i=0; i<n; i++) {
             // space
@@ -22,8 +23,18 @@ public class Pattern_7 {
         }
     }
 
+    // Main Function
     public static void main(String[] args) {
         int n = 5;
         pattern7(n);
     }
 }
+
+// Output -
+/*
+ *
+ ***
+ *****
+ *******
+ *********
+ */

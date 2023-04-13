@@ -2,6 +2,7 @@ package Practice.Patterns;
 
 public class Pattern_12 {
 
+    // Pattern Function
     public static void pattern12(int n) {
         int space = 2 * (n-1);
         for (int i=1; i<=n; i++) {
@@ -22,8 +23,18 @@ public class Pattern_12 {
         }
     }
 
+    // Main Function
     public static void main(String[] args) {
         int n = 5;
         pattern12(n);
     }
 }
+
+// Output -
+/*
+1        1
+12      21
+123    321
+1234  4321
+1234554321
+ */

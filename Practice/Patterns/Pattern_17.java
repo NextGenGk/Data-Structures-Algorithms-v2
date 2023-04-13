@@ -2,6 +2,7 @@ package Practice.Patterns;
 
 public class Pattern_17 {
 
+    // Pattern Function
     public static void pattern17(int n) {
         for (int i=0; i<n; i++) {
             // space
@@ -24,8 +25,18 @@ public class Pattern_17 {
         }
     }
 
+    // Main Function
     public static void main(String[] args) {
         int n = 5;
         pattern17(n);
     }
 }
+
+// Output -
+/*
+    A
+   ABC
+  ABCDC
+ ABCDEDC
+ABCDEFEDC
+ */
